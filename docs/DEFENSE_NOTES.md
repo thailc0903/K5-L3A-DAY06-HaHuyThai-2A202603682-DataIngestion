@@ -1,7 +1,4 @@
 # Ghi chú để hiểu và trình bày bài
-
-Hà Huy Thái — 2A202603682 — lớp 3A.
-
 ## Bài toán
 
 Đọc tài liệu kỹ thuật về thư viện chuẩn Python, chuyển thành vector và lấy ba đoạn phù hợp cho câu hỏi. Mục tiêu là đo tác động của **chuẩn bị dữ liệu**. Bài này không tạo câu trả lời bằng chatbot; grounding đo độ đủ của các đoạn truy xuất.
