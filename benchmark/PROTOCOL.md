@@ -1,6 +1,6 @@
 # Giao thức chốt trước thí nghiệm
 
-Tác giả: Hà Huy Thái, 2A202603682, lớp 3A. AI hỗ trợ chuẩn bị và kiểm tra; không giả mạo người chấm hay số liệu.
+AI hỗ trợ chuẩn bị và kiểm tra; không giả mạo người chấm hay số liệu.
 
 - Corpus: các trang tham chiếu module độc lập của Python 3.13, tiếng Anh. Mỗi đơn vị ≥1.500 ký tự sau chuẩn hóa; không coi một chunk là một trang. Lưu bản HTML, giấy phép và SHA-256.
 - Benchmark gồm đúng 20 câu tiếng Anh để kiểm tra retrieval cùng ngôn ngữ corpus. 15 dev tập trung text/binary/data types/numeric; 5 test dành cho filesystem/file formats/persistence. Chia theo module, không đặt cùng module gold ở cả hai split. Không hứa tính độc lập tuyệt đối: cùng bộ tài liệu và các API có tham chiếu chéo; người xây benchmark biết trước gold.
