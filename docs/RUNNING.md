@@ -1,7 +1,4 @@
 # Data Ingestion — Tài liệu kỹ thuật Python 3.13
-
-**Hà Huy Thái · 2A202603682 · lớp 3A**
-
 Bài thực nghiệm so sánh fixed-size chunking, chunking theo cấu trúc và metadata filter trên **32 tài liệu module độc lập** của thư viện chuẩn Python. Corpus tiếng Anh; benchmark 15 dev / 5 test; báo cáo tiếng Việt. Embedding thật chạy local bằng FastEmbed/BGE, lưu bền vững bằng Qdrant, không cần API key hay Docker.
 
 Đọc [báo cáo cá nhân](../report/individual/2A202603682_HaHuyThai.md), [giao thức chốt benchmark](../benchmark/PROTOCOL.md), [ghi chú giải thích bài](../docs/DEFENSE_NOTES.md) và [nhật ký thiết lập](../results/setup_notes.md). Các tệp đề bài RUBRIC, RULES, GUIDE, CHECKPOINTS và BENCHMARK được giữ nguyên.
