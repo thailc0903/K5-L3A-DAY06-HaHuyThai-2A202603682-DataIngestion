@@ -1,0 +1,52 @@
+[
+  {
+    "question_id": "q02",
+    "split": "dev",
+    "filter": {
+      "category": "Text Processing Services"
+    },
+    "unfiltered_candidate_count": 1151,
+    "filtered_candidate_count": 183,
+    "purpose": "Post-run candidate-pool diagnostic, not additional tuning or a new retrieval metric"
+  },
+  {
+    "question_id": "q06",
+    "split": "dev",
+    "filter": {
+      "category": "Binary Data Services"
+    },
+    "unfiltered_candidate_count": 1151,
+    "filtered_candidate_count": 93,
+    "purpose": "Post-run candidate-pool diagnostic, not additional tuning or a new retrieval metric"
+  },
+  {
+    "question_id": "q07",
+    "split": "dev",
+    "filter": {
+      "category": "Binary Data Services"
+    },
+    "unfiltered_candidate_count": 1151,
+    "filtered_candidate_count": 93,
+    "purpose": "Post-run candidate-pool diagnostic, not additional tuning or a new retrieval metric"
+  },
+  {
+    "question_id": "q16",
+    "split": "test",
+    "filter": {
+      "category": "File and Directory Access"
+    },
+    "unfiltered_candidate_count": 1151,
+    "filtered_candidate_count": 163,
+    "purpose": "Post-run candidate-pool diagnostic, not additional tuning or a new retrieval metric"
+  },
+  {
+    "question_id": "q19",
+    "split": "test",
+    "filter": {
+      "category": "File Formats"
+    },
+    "unfiltered_candidate_count": 1151,
+    "filtered_candidate_count": 85,
+    "purpose": "Post-run candidate-pool diagnostic, not additional tuning or a new retrieval metric"
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "python": "3.12.16",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "packages": {
+    "fastembed": "0.7.4",
+    "qdrant-client": "1.16.2",
+    "onnxruntime": "1.31.1",
+    "numpy": "2.5.4",
+    "tokenizers": "0.23.3",
+    "beautifulsoup4": "4.14.3",
+    "requests": "2.32.5"
+  },
+  "model_name": "BAAI/bge-small-en-v1.5",
+  "dimensions": 384,
+  "model_files_sha256": {
+    "models--qdrant--bge-small-en-v1.5-onnx-q/files_metadata.json": "b7c49dae21a6abb256580b264f6bfe250f28674ebf98209014d25cf4dcab8f92",
+    "models--qdrant--bge-small-en-v1.5-onnx-q/trees/aa8f8b060edb00e03bfdd08813a2949946c8ba55.json": "b36745b192ad9da9788cb4505f6eb753786ee077609b52283ba92e3aedc7f4ed",
+    "models--qdrant--bge-small-en-v1.5-onnx-q/snapshots/aa8f8b060edb00e03bfdd08813a2949946c8ba55/config.json": "13582bcf2effc85b7bf3d3f5532e686bc1c9ce86bb009d10f0ec33cbe92299dd",
+    "models--qdrant--bge-small-en-v1.5-onnx-q/snapshots/aa8f8b060edb00e03bfdd08813a2949946c8ba55/model_optimized.onnx": "51f1bd0addd6e859e42c2c8021a5e5461385bb676a649f4b269aa445449f2431",
+    "models--qdrant--bge-small-en-v1.5-onnx-q/snapshots/aa8f8b060edb00e03bfdd08813a2949946c8ba55/special_tokens_map.json": "5d5b662e421ea9fac075174bb0688ee0d9431699900b90662acd44b2a350503a",
+    "models--qdrant--bge-small-en-v1.5-onnx-q/snapshots/aa8f8b060edb00e03bfdd08813a2949946c8ba55/tokenizer.json": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+    "models--qdrant--bge-small-en-v1.5-onnx-q/snapshots/aa8f8b060edb00e03bfdd08813a2949946c8ba55/tokenizer_config.json": "0b29c7bfc889e53b36d9dd3e686dd4300f6525110eaa98c76a5dafceb2029f53"
+  },
+  "document_preprocessing": "FastEmbed passage_embed",
+  "query_preprocessing": "FastEmbed query_embed",
+  "metric": "cosine",
+  "search": "Qdrant local exact dense search",
+  "model_init_seconds": 1.1058864000005997,
+  "api_cost_usd": 0,
+  "cost_scope": "No paid API; excludes electricity, hardware, network and human time",
+  "run_at_utc": "2026-11-13T10:46:03.832752+00:00"
+}

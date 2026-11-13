@@ -1,0 +1,72 @@
+{
+  "started_at_utc": "2026-11-13T10:55:25.609296+00:00",
+  "output_directory": ".cache/reproductions/20261113T105525561406Z",
+  "store": "New, separate persistent Qdrant store; original store and artifacts untouched",
+  "embedding_cache_reused": true,
+  "fresh_independent_holdout": false,
+  "baseline_sha256": {
+    "benchmark/freeze.json": "1abe6930864b6dd4f47d8bece589a206ba64df3823ca00277fa48798d38a92c9",
+    "benchmark/questions.jsonl": "1a5a16001ee251e3afec7f9f9355a77f990d893b0c4159e7d19836daa9f8fea9",
+    "data/pages.jsonl": "92298aea7906bfc45324798f6ab1e30df2bc73fdd43fb44aa14fd0a8de74a7c6",
+    "data/manifest.jsonl": "2b1d84fd9ac0860ec306b63565daf9405dc385307ca7d0640e88a24e30f652d9",
+    "results/selection.json": "d367eeda76f80f27c5910b3631a188c6535b9cc5c403ff4cdd23081e9e798375",
+    "results/environment_dev.json": "d4053188a0015cb026ef9c44c841e511fc0991a6b80847023f51c66f4156f90f",
+    "results/environment_test.json": "50c0b94885330bb6d1bbe1cee906ff7267eea393058bc370e51884811e5cf275",
+    "results/ingestion_stats.json": "8ce83fed91e58aedac2394dfab92f4cbbfe87d1a36a6e5e28638d144e9dfaea2",
+    "results/ingestion_stats_dev.json": "105a64ceb96220c800e05f795c3035695da865e0694a191f0325b9d1f32cd273",
+    "results/ingestion_stats_test.json": "27a37dbcd070892382abf7f46a22dc859e3b5196d86e6a76724629a353ec6214",
+    "results/metrics_dev.json": "9911907e99755ee68ed3d58474a2acf1b3e4afa161af06160857c579d08b6dd4",
+    "results/metrics_test.json": "804012110448c6f8ac728a878bc9412f60d7165a8c0878d092cd816ed91eafd9",
+    "results/persistence_check.json": "e8d9a4cff8551cfbcf9a5ecd0d0dbefede26befb403b02930a290e07e66a17ef",
+    "results/coherence_anchors.json": "6bbc60ad3dc55b147cb3ef792dc818b9cea7cbb047b0c0d73fce6f661819e04f",
+    "results/evidence_validation.json": "06d5aef1e75218c32e086649d4e46f9545b57c1fa7ad95740156ac0979dfab2c",
+    "results/chunks_A.jsonl": "d3bdf6cbae35f4eba7e581d2bb50abb4cf6d59b71fc24ba582a19629ad6ab2d5",
+    "results/chunks_B.jsonl": "f6e7dadd889b8d4f835819873badc308b2529a7d4eba95cd3bab248fd83022bc",
+    "results/chunks_C.jsonl": "f6e7dadd889b8d4f835819873badc308b2529a7d4eba95cd3bab248fd83022bc",
+    "results/traces_dev.jsonl": "4b3cd045c1396a6ae80423559c42c762f2211a67da3b9081c7d70632756f7263",
+    "results/traces_test.jsonl": "73326a732d950a3c6fb6c39cc280c75b514507282aeeca84dca4c61de4c6f8fa"
+  },
+  "checks": {
+    "dev_all_ranked_texts_metadata_scores_and_hits_match": true,
+    "dev_metrics_match": true,
+    "test_all_ranked_texts_metadata_scores_and_hits_match": true,
+    "test_metrics_match": true,
+    "baseline_artifacts_not_modified": true,
+    "persisted_reopened": true,
+    "selection_matches": true
+  },
+  "all_passed": true,
+  "replay_environment": {
+    "python": "3.12.16",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "packages": {
+      "fastembed": "0.7.4",
+      "qdrant-client": "1.16.2",
+      "onnxruntime": "1.31.1",
+      "numpy": "2.5.4",
+      "tokenizers": "0.23.3",
+      "beautifulsoup4": "4.14.3",
+      "requests": "2.32.5"
+    },
+    "model_name": "BAAI/bge-small-en-v1.5",
+    "dimensions": 384,
+    "model_files_sha256": {
+      "models--qdrant--bge-small-en-v1.5-onnx-q/files_metadata.json": "b7c49dae21a6abb256580b264f6bfe250f28674ebf98209014d25cf4dcab8f92",
+      "models--qdrant--bge-small-en-v1.5-onnx-q/trees/aa8f8b060edb00e03bfdd08813a2949946c8ba55.json": "b36745b192ad9da9788cb4505f6eb753786ee077609b52283ba92e3aedc7f4ed",
+      "models--qdrant--bge-small-en-v1.5-onnx-q/snapshots/aa8f8b060edb00e03bfdd08813a2949946c8ba55/config.json": "13582bcf2effc85b7bf3d3f5532e686bc1c9ce86bb009d10f0ec33cbe92299dd",
+      "models--qdrant--bge-small-en-v1.5-onnx-q/snapshots/aa8f8b060edb00e03bfdd08813a2949946c8ba55/model_optimized.onnx": "51f1bd0addd6e859e42c2c8021a5e5461385bb676a649f4b269aa445449f2431",
+      "models--qdrant--bge-small-en-v1.5-onnx-q/snapshots/aa8f8b060edb00e03bfdd08813a2949946c8ba55/special_tokens_map.json": "5d5b662e421ea9fac075174bb0688ee0d9431699900b90662acd44b2a350503a",
+      "models--qdrant--bge-small-en-v1.5-onnx-q/snapshots/aa8f8b060edb00e03bfdd08813a2949946c8ba55/tokenizer.json": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+      "models--qdrant--bge-small-en-v1.5-onnx-q/snapshots/aa8f8b060edb00e03bfdd08813a2949946c8ba55/tokenizer_config.json": "0b29c7bfc889e53b36d9dd3e686dd4300f6525110eaa98c76a5dafceb2029f53"
+    },
+    "document_preprocessing": "FastEmbed passage_embed",
+    "query_preprocessing": "FastEmbed query_embed",
+    "metric": "cosine",
+    "search": "Qdrant local exact dense search",
+    "model_init_seconds": 1.074809900001128,
+    "api_cost_usd": 0,
+    "cost_scope": "No paid API; excludes electricity, hardware, network and human time",
+    "run_at_utc": "2026-11-13T10:55:26.910070+00:00"
+  },
+  "finished_at_utc": "2026-11-13T10:55:39.990387+00:00"
+}

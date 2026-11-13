@@ -1,0 +1,15 @@
+{
+  "model_name": "BAAI/bge-small-en-v1.5",
+  "dimensions": 384,
+  "metric": "cosine",
+  "top_k": 3,
+  "seed": 42,
+  "strategies": {
+    "A": {"chunking": "fixed", "chunk_size": 500, "overlap": 50, "use_filter": false},
+    "B": {"chunking": "paragraph", "chunk_size": 1000, "overlap": 0, "use_filter": false},
+    "C": {"chunking": "paragraph", "chunk_size": 1000, "overlap": 0, "use_filter": true}
+  },
+  "selection_rule": "Maximize dev Evidence Hit@3, then dev Hit@1, then fewer stored characters; exact tie prefers C, B, A. No test-based tuning.",
+  "coherence_sampling": "First ten source_id values sorted lexicographically; anchor is midpoint character of first prose paragraph of at least 150 characters. Inspect the earliest-start chunk covering that anchor.",
+  "query_language": "English, matching the English technical corpus; report is Vietnamese."
+}

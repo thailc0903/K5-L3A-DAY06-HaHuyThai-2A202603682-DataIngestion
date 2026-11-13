@@ -1,0 +1,58 @@
+{
+  "selected_strategy": "C",
+  "selected_at_utc": "2026-11-13T10:46:21.332940+00:00",
+  "rule": "Maximize dev Evidence Hit@3, then dev Hit@1, then fewer stored characters; exact tie prefers C, B, A. No test-based tuning.",
+  "dev_results": [
+    {
+      "strategy": "A",
+      "split": "dev",
+      "n": 15,
+      "hit1_n": 4,
+      "hit1": 0.26666666666666666,
+      "hit3_n": 6,
+      "hit3": 0.4,
+      "filter_compliant_n": 3,
+      "filter_questions_n": 3,
+      "filter_compliance": 1.0
+    },
+    {
+      "strategy": "B",
+      "split": "dev",
+      "n": 15,
+      "hit1_n": 11,
+      "hit1": 0.7333333333333333,
+      "hit3_n": 13,
+      "hit3": 0.8666666666666667,
+      "filter_compliant_n": 3,
+      "filter_questions_n": 3,
+      "filter_compliance": 1.0
+    },
+    {
+      "strategy": "C",
+      "split": "dev",
+      "n": 15,
+      "hit1_n": 11,
+      "hit1": 0.7333333333333333,
+      "hit3_n": 13,
+      "hit3": 0.8666666666666667,
+      "filter_compliant_n": 3,
+      "filter_questions_n": 3,
+      "filter_compliance": 1.0
+    }
+  ],
+  "frozen_hashes": {
+    "data/pages.jsonl": "92298aea7906bfc45324798f6ab1e30df2bc73fdd43fb44aa14fd0a8de74a7c6",
+    "data/manifest.jsonl": "2b1d84fd9ac0860ec306b63565daf9405dc385307ca7d0640e88a24e30f652d9",
+    "benchmark/questions.jsonl": "1a5a16001ee251e3afec7f9f9355a77f990d893b0c4159e7d19836daa9f8fea9",
+    "configs/strategies.json": "325126b53d924dbe81e69fd070474ec8655f60008f1f68bbd7c157e86ab295d2",
+    "starter/src/__init__.py": "9d51e4a4713565f1b69bb8f3a0d8ac2c6c8730961e738a65f7a7a4ebd2a593a8",
+    "starter/src/chunking.py": "93905c8edf0d330ab778f05c31f82acee1467c8d5427f8c8a4faf354e4c26003",
+    "starter/src/embeddings.py": "6ce2e4de175cdcfdd38f6c15ff5010423f0a79adf52c1396b12f5caf9940b271",
+    "starter/src/evaluation.py": "136894641d4aeda09fc552ed1336de819119df2b9a7f0f5c44eea3b9fc3ce115",
+    "starter/src/ingestion.py": "f12484e50ae4c61f9067b51812eb44c826f8cdc085b4f7cf1c48b2c292836971",
+    "starter/src/models.py": "0e177318d75586228a23e79abe328cc30772c1f86f1e9512f8cdfb452772458c",
+    "starter/src/run.py": "ce2c19b0a13b46ada15cc74229777e2f7dc88ad8261b2d013ad43bae24f7c841",
+    "starter/src/store.py": "af4e05636d5b0d86bd9752e2f7b1f211fa99413f168dafd13083d067ef7d2570"
+  },
+  "test_metrics_seen": false
+}

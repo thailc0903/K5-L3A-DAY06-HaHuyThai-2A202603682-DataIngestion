@@ -7,7 +7,7 @@ from typing import Any
 class DocumentPage:
     document_id: str
     source: str
-    page: int
+    page: int | str
     text: str
     metadata: dict[str, Any] = field(default_factory=dict)
 
@@ -17,6 +17,6 @@ class Chunk:
     chunk_id: str
     document_id: str
     source: str
-    page: int
+    page: int | str
     text: str
     metadata: dict[str, Any] = field(default_factory=dict)

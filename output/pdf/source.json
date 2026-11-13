@@ -1,0 +1,9 @@
+{
+  "source_url": "https://docs.python.org/3.13/archives/python-3.13-docs-pdf-a4.zip",
+  "download_page": "https://docs.python.org/3.13/download.html",
+  "archive_member": "docs-pdf/library.pdf",
+  "bytes": 11752412,
+  "sha256": "f66896e8a0df1d3d209c9bd5695aedc49a1b64963234353a0d8f992ead39e05b",
+  "purpose": "Reference PDF downloaded unchanged; NOT the corpus used in the existing benchmark.",
+  "version_note": "Official Python site no longer updates pre-built PDFs; do not assume this PDF matches HTML snapshot 3.13.18."
+}

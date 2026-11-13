@@ -1,0 +1,11 @@
+{
+  "form": "results/student_review.csv",
+  "expected_records": 112,
+  "completed_records": 0,
+  "core_expected_records": 90,
+  "core_completed_records": 0,
+  "all_complete": false,
+  "invalid_rows": [],
+  "status": "pending_student_review",
+  "note": "Blank fields remain pending. suggested_score is AI output, never student confirmation."
+}

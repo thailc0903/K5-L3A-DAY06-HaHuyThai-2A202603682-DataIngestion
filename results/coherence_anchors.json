@@ -1,0 +1,82 @@
+[
+  {
+    "document_id": "py313-array",
+    "page": "array",
+    "anchor": 247,
+    "source_paragraph": "This module defines an object type which can compactly represent an array of\nbasic values: characters, integers, floating-point numbers. Arrays are mutable sequence types and behave very much like lists, except that the type of objects stored in\nthem is constrained. The type is specified at object creation time by using a type code , which is a single character. The following type codes are\ndefined:",
+    "paragraph_start": 46,
+    "paragraph_end": 448
+  },
+  {
+    "document_id": "py313-bisect",
+    "page": "bisect",
+    "anchor": 193,
+    "source_paragraph": "This module provides support for maintaining a list in sorted order without\nhaving to sort the list after each insertion. For long lists of items with\nexpensive comparison operations, this can be an improvement over\nlinear searches or frequent resorting.",
+    "paragraph_start": 66,
+    "paragraph_end": 320
+  },
+  {
+    "document_id": "py313-codecs",
+    "page": "codecs",
+    "anchor": 353,
+    "source_paragraph": "This module defines base classes for standard Python codecs (encoders and\ndecoders) and provides access to the internal Python codec registry, which\nmanages the codec and error handling lookup process. Most standard codecs\nare text encodings , which encode text to bytes (and\ndecode bytes to text), but there are also codecs provided that encode text to\ntext, and bytes to bytes. Custom codecs may encode and decode between arbitrary\ntypes, but some module features are restricted to be used specifically with text encodings or with codecs that encode to bytes .",
+    "paragraph_start": 72,
+    "paragraph_end": 634
+  },
+  {
+    "document_id": "py313-collections",
+    "page": "collections",
+    "anchor": 158,
+    "source_paragraph": "This module implements specialized container datatypes providing alternatives to\nPython’s general purpose built-in containers, dict , list , set , and tuple .",
+    "paragraph_start": 79,
+    "paragraph_end": 237
+  },
+  {
+    "document_id": "py313-collections.abc",
+    "page": "collections.abc",
+    "anchor": 267,
+    "source_paragraph": "This module provides abstract base classes that\ncan be used to test whether a class provides a particular interface; for\nexample, whether it is hashable or whether it is a mapping .",
+    "paragraph_start": 177,
+    "paragraph_end": 358
+  },
+  {
+    "document_id": "py313-configparser",
+    "page": "configparser",
+    "anchor": 208,
+    "source_paragraph": "This module provides the ConfigParser class which implements a basic\nconfiguration language which provides a structure similar to what’s found in\nMicrosoft Windows INI files. You can use this to write Python programs which\ncan be customized by end users easily.",
+    "paragraph_start": 78,
+    "paragraph_end": 339
+  },
+  {
+    "document_id": "py313-copy",
+    "page": "copy",
+    "anchor": 232,
+    "source_paragraph": "Assignment statements in Python do not copy objects, they create bindings\nbetween a target and an object. For collections that are mutable or contain\nmutable items, a copy is sometimes needed so one can change one copy without\nchanging the other. This module provides generic shallow and deep copy\noperations (explained below).",
+    "paragraph_start": 69,
+    "paragraph_end": 396
+  },
+  {
+    "document_id": "py313-csv",
+    "page": "csv",
+    "anchor": 420,
+    "source_paragraph": "The so-called CSV (Comma Separated Values) format is the most common import and\nexport format for spreadsheets and databases. CSV format was used for many\nyears prior to attempts to describe the format in a standardized way in RFC 4180 . The lack of a well-defined standard means that subtle differences\noften exist in the data produced and consumed by different applications. These\ndifferences can make it annoying to process CSV files from multiple sources.\nStill, while the delimiters and quoting characters vary, the overall format is\nsimilar enough that it is possible to write a single module which can\nefficiently manipulate such data, hiding the details of reading and writing the\ndata from the programmer.",
+    "paragraph_start": 63,
+    "paragraph_end": 777
+  },
+  {
+    "document_id": "py313-datetime",
+    "page": "datetime",
+    "anchor": 218,
+    "source_paragraph": "While date and time arithmetic is supported, the focus of the implementation is\non efficient attribute extraction for output formatting and manipulation.",
+    "paragraph_start": 142,
+    "paragraph_end": 295
+  },
+  {
+    "document_id": "py313-decimal",
+    "page": "decimal",
+    "anchor": 167,
+    "source_paragraph": "The decimal module provides support for fast correctly rounded\ndecimal floating-point arithmetic. It offers several advantages over the float datatype:",
+    "paragraph_start": 92,
+    "paragraph_end": 243
+  }
+]

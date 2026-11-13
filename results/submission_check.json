@@ -1,0 +1,145 @@
+{
+  "scope": "Technical checks do not certify human grading, commit, repository accessibility or class submission.",
+  "technical_checks_passed": true,
+  "technical_checks_n": 29,
+  "checks": [
+    {
+      "check": "Frozen corpus, benchmark, config and retrieval code SHA256",
+      "passed": true
+    },
+    {
+      "check": "At least 30 independent source units >=1500 characters",
+      "passed": true
+    },
+    {
+      "check": "No identical normalized source units",
+      "passed": true
+    },
+    {
+      "check": "All chunks preserve exact source offsets and cover every non-whitespace character",
+      "passed": true
+    },
+    {
+      "check": "Raw/normalized source SHA256, sizes, boundaries and license attribution",
+      "passed": true
+    },
+    {
+      "check": "15 dev / 5 test and >=3 filters including test",
+      "passed": true
+    },
+    {
+      "check": "Every gold quote appears on exact declared source/page",
+      "passed": true
+    },
+    {
+      "check": "Published split lists exactly match benchmark records",
+      "passed": true
+    },
+    {
+      "check": "Complete 60 unique query/strategy traces, three hits each",
+      "passed": true
+    },
+    {
+      "check": "Hit definitions, all 180 source spans/metadata and C filters",
+      "passed": true
+    },
+    {
+      "check": "Saved split summaries agree with traces",
+      "passed": true
+    },
+    {
+      "check": "B and C chunks exactly identical",
+      "passed": true
+    },
+    {
+      "check": "B/C retrieval identical on every unfiltered question",
+      "passed": true
+    },
+    {
+      "check": "Selection retains frozen inputs and records no test metrics used",
+      "passed": true
+    },
+    {
+      "check": "Selection timestamp precedes test-phase run",
+      "passed": true
+    },
+    {
+      "check": "Actual upsert twice preserved all collection counts",
+      "passed": true
+    },
+    {
+      "check": "Actual persistent store reopened",
+      "passed": true
+    },
+    {
+      "check": "30 coherence, 15 grounding, 45 metadata reviewed records",
+      "passed": true
+    },
+    {
+      "check": "Every subjective label has actual reviewer/reason/valid score",
+      "passed": true
+    },
+    {
+      "check": "Coherence labels use exactly the same ten preregistered source positions",
+      "passed": true
+    },
+    {
+      "check": "Grounding judgments identify all three actual test chunks",
+      "passed": true
+    },
+    {
+      "check": "Versioned evidence review binds exact baseline input hashes",
+      "passed": true
+    },
+    {
+      "check": "All 180 reviewed hits have bound material, criteria and single-chunk decisions",
+      "passed": true
+    },
+    {
+      "check": "Reviewed metrics use same ranked chunks and one complete chunk per hit",
+      "passed": true
+    },
+    {
+      "check": "Real isolated replay matches baseline retrieval and preserves its files",
+      "passed": true
+    },
+    {
+      "check": "Executed pipeline/review tests succeeded with no skipped tests",
+      "passed": true
+    },
+    {
+      "check": "Replayed embedding model files match the pinned snapshot manifest",
+      "passed": true
+    },
+    {
+      "check": "Original rubric, rules, guides, benchmark and report template unchanged",
+      "passed": true
+    },
+    {
+      "check": "Required named report and experiment log exist",
+      "passed": true
+    }
+  ],
+  "student_review": {
+    "form": "results/student_review.csv",
+    "expected_records": 112,
+    "completed_records": 0,
+    "core_expected_records": 90,
+    "core_completed_records": 0,
+    "all_complete": false,
+    "invalid_rows": [],
+    "status": "pending_student_review",
+    "note": "Blank fields remain pending. suggested_score is AI output, never student confirmation."
+  },
+  "rubric_complete": false,
+  "submission_ready": false,
+  "pending_actions": [
+    "Student must read/confirm or correct subjective and equivalent-evidence labels; no human review is asserted.",
+    "Create the submission commit and record its actual SHA in STUDENT.md.",
+    "Verify grader access, push and submit the repository link through the class channel; not performed by this verifier."
+  ],
+  "limitations": [
+    "Reviewed v2 evidence is a disclosed post-hoc AI-assisted evaluation, not a fresh independent holdout.",
+    "README and rule documents remain original; run instructions are in docs/RUNNING.md at the student's request."
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "rows": [
+    {
+      "strategy": "A",
+      "split": "test",
+      "n": 5,
+      "hit1_n": 0,
+      "hit1": 0.0,
+      "hit3_n": 2,
+      "hit3": 0.4,
+      "filter_compliant_n": 1,
+      "filter_questions_n": 2,
+      "filter_compliance": 0.5
+    },
+    {
+      "strategy": "B",
+      "split": "test",
+      "n": 5,
+      "hit1_n": 3,
+      "hit1": 0.6,
+      "hit3_n": 3,
+      "hit3": 0.6,
+      "filter_compliant_n": 2,
+      "filter_questions_n": 2,
+      "filter_compliance": 1.0
+    },
+    {
+      "strategy": "C",
+      "split": "test",
+      "n": 5,
+      "hit1_n": 3,
+      "hit1": 0.6,
+      "hit3_n": 3,
+      "hit3": 0.6,
+      "filter_compliant_n": 2,
+      "filter_questions_n": 2,
+      "filter_compliance": 1.0
+    }
+  ],
+  "metric": "One top-k chunk must match any gold source/page AND contain the entire evidence quote. Multi-chunk unions do not count."
+}

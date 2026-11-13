@@ -1,0 +1,197 @@
+[
+  {
+    "strategy": "A",
+    "question_id": "q16",
+    "score": 2,
+    "reason": "Rank 1 giữ trọn đoạn nói nonexistent path/symlink loop, strict=True gây OSError và strict=False nối phần chưa kiểm tra; metadata xác nhận Python 3.13. Note đổi phiên bản bị cắt nên strict quote-hit thất bại, nhưng đoạn chính đủ trả lời hành vi hiện tại.",
+    "reviewer": "Codex — direct reading of all top-3 against source/expected conditions",
+    "human_confirmed": false,
+    "reviewed_chunk_ids": [
+      "b7468508c4584052aaead7e6e2691e86a1572ef30ce79968a9ae31d45b3c7b3c",
+      "7e7ab87960a73b1839bf69d796bb50bacadb14421865d24f1f503455d1e2375d",
+      "99266e0b2904a16daa941bab3c4e30213a6bd0a8672ad83f05d1384f1a0b21e2"
+    ]
+  },
+  {
+    "strategy": "A",
+    "question_id": "q17",
+    "score": 2,
+    "reason": "Rank 3 có toàn bộ cảnh báo commonprefix xử lý từng ký tự và khuyên dùng commonpath; rank 1 thêm ví dụ /usr/l đối lập /usr. Đủ nguyên nhân và cách thay thế.",
+    "reviewer": "Codex — direct reading of all top-3 against source/expected conditions",
+    "human_confirmed": false,
+    "reviewed_chunk_ids": [
+      "e37a82642670b9ccb5548347ebcf5f0d7b9bb54d04f18ad9a57ea0cc7ab86b28",
+      "75553d26cb15c82eefc308dbd1c8bf2bf834c50e0bbdde8d3eafcb72c404dcf9",
+      "af9fbb39dfde9e99992820b2ea3b610d72bb746e4c0ec1015e9b81fd5f20f70c"
+    ]
+  },
+  {
+    "strategy": "A",
+    "question_id": "q18",
+    "score": 2,
+    "reason": "Given the Windows/delete flags already supplied in the question, rank 1 contains the obligation to close additional opens without delete sharing before context exit and the PermissionError consequence. Rank 2 adds explicit broader Windows context. The complete answer can be supported by rank 1 despite the longer literal gold being split.",
+    "reviewer": "Codex — direct reading of all top-3 against source/expected conditions",
+    "human_confirmed": false,
+    "reviewed_chunk_ids": [
+      "8ab589cfff5575e92c4c0169013834c9cd9d0cb02076df8eb350fd2dcfef67bf",
+      "6893069c18f521f7152d47fe0f6086f2bba8d86324f6cd2037deea430b926836",
+      "03252c4a9ac84dc9e8268e42fde4e9368c82bb3b52ba91ad26219fe2f26ba6b6"
+    ]
+  },
+  {
+    "strategy": "A",
+    "question_id": "q19",
+    "score": 2,
+    "reason": "Rank 2 chứa trọn footnote về quoted newline, CRLF thêm carriage return và csv tự xử lý newline. Rank 3 difflib không liên quan và sai phạm vi filter yêu cầu, nhưng hai điều kiện trả lời vẫn đủ trong rank 2.",
+    "reviewer": "Codex — direct reading of all top-3 against source/expected conditions",
+    "human_confirmed": false,
+    "reviewed_chunk_ids": [
+      "cb5ae87d82f4fb2090b1d29cea13b04f4cea3b45508f9ae4e2c556463958bf09",
+      "117563ceb34118278ea81da2841977b8196eec29a4a746d261ad588c7082a68d",
+      "68548ceb1f013e165c13a1651785e7681dbdb0529eb3d4184b4f485b9c670456"
+    ]
+  },
+  {
+    "strategy": "A",
+    "question_id": "q20",
+    "score": 2,
+    "reason": "Rank 1 cảnh báo ghép SQL bằng string operations gây injection và có heading dùng placeholders; rank 2 mô tả execute(sql, parameters) bind values bằng placeholders, rank 3 có ví dụ VALUES(?). Đây là evidence tương đương trên cùng trang, không trùng quote gold ban đầu.",
+    "reviewer": "Codex — direct reading of all top-3 against source/expected conditions",
+    "human_confirmed": false,
+    "reviewed_chunk_ids": [
+      "9d3e1c72a5fefe9555c00e1bf0ef881bdd32f197b3884b4c03fc6df2d664aec5",
+      "f448b74ed3e46e88bbbb842615cf4a67f738bbaf889037fa1425222df6cb0874",
+      "8537cb8fb7b53f00e6ae62ae6e6e4b7b2df7102023838d0ece2973b5b29272e0"
+    ]
+  },
+  {
+    "strategy": "B",
+    "question_id": "q16",
+    "score": 2,
+    "reason": "Rank 2 contains Path.resolve and the complete current strict/non-strict behavior for a nonexistent path or symlink loop in the 3.13 snapshot; rank 3 adds the historical version-change note. Rank 1 is the neighboring os.path API, so provenance must distinguish them. The answer is supported without requiring a multi-chunk union.",
+    "reviewer": "Codex — direct reading of all top-3 against source/expected conditions",
+    "human_confirmed": false,
+    "reviewed_chunk_ids": [
+      "0e041a13a302c39d0382da320f043159486f8bcf10dd538d810d285418f2cacf",
+      "f1a000af0f0a4984d277d60a4e41b80dae00561c2641faa1a3cd13287971529a",
+      "ad41fdf4ee7ceec118c653e5c61344720b3aa68790dc242368ce0a800dab7b30"
+    ]
+  },
+  {
+    "strategy": "B",
+    "question_id": "q17",
+    "score": 2,
+    "reason": "Rank 1 chứa cảnh báo trả path không hợp lệ do xét từng ký tự và khuyên dùng commonpath; rank 2 minh họa /usr/l và /usr. Đủ trả lời độc lập với chunk thứ ba không liên quan trực tiếp.",
+    "reviewer": "Codex — direct reading of all top-3 against source/expected conditions",
+    "human_confirmed": false,
+    "reviewed_chunk_ids": [
+      "5b704f9ea7c8f832a3ea1b4c8b4c40ada4020e00db020e4f8aa18c25cb75a044",
+      "0e5c164249e0f4e4a91cb3f8f098f4e928bad37ef3e71ddb654b98dcd6bd6859",
+      "0e041a13a302c39d0382da320f043159486f8bcf10dd538d810d285418f2cacf"
+    ]
+  },
+  {
+    "strategy": "B",
+    "question_id": "q18",
+    "score": 2,
+    "reason": "Rank 1 giữ trọn ngữ cảnh Windows, ba lựa chọn và điều kiện đóng additional opens trước exit; rank 2 làm rõ delete/delete_on_close. Đủ ngoại lệ PermissionError và truy nguồn tempfile.",
+    "reviewer": "Codex — direct reading of all top-3 against source/expected conditions",
+    "human_confirmed": false,
+    "reviewed_chunk_ids": [
+      "df8accac72f4ad7758f170bd6ea91acb6061d8c4c964f77b9178ed86835bf3dc",
+      "63ecef0f78f670ff3831ebd35813615e511d9679f71b7d55f92573a47199b1fb",
+      "21b96f020ce37f164ec48f0b25a3c3e71b3bb3de07b02a98329142c08eabdb90"
+    ]
+  },
+  {
+    "strategy": "B",
+    "question_id": "q19",
+    "score": 2,
+    "reason": "Rank 1 là toàn bộ footnote nêu cả quoted embedded newline, extra carriage return trên CRLF và csv tự xử lý newline; các rank còn lại cung cấp cách mở writer/reader. Đủ hai vế câu hỏi.",
+    "reviewer": "Codex — direct reading of all top-3 against source/expected conditions",
+    "human_confirmed": false,
+    "reviewed_chunk_ids": [
+      "f4ce2c234b6ef871430fd8335055b214db80527cda8c0b364399ef30a4bd8679",
+      "4c066dfce8fe43600df6a5b40be12e83dc8e32e68762b819f2a3fdc825cf2b70",
+      "815793762db16c0aa8694c52a59ce0d779610375cc953f6f03da5d59f9844a3b"
+    ]
+  },
+  {
+    "strategy": "B",
+    "question_id": "q20",
+    "score": 2,
+    "reason": "Rank 1 giữ warning SQL injection và hướng dẫn DB-API parameter substitution bằng placeholder + tuple truyền vào execute; rank 2 có VALUES(?). Bằng chứng tương đương hợp lệ trên trang sqlite3 dù không đúng literal gold quote khai báo.",
+    "reviewer": "Codex — direct reading of all top-3 against source/expected conditions",
+    "human_confirmed": false,
+    "reviewed_chunk_ids": [
+      "fa13dc466ec9d42974f36ac63b33557ac7a9718661bcfbb5756e5cd7d4711980",
+      "354bd0aa36a7e7bbdddb612b9462f8f568860e15ef740d870ec9269a7336c1d6",
+      "96404e351b5edf0fc013fa8da10999b5c8318b860ca9839bd69d65c3fb47dcfa"
+    ]
+  },
+  {
+    "strategy": "C",
+    "question_id": "q16",
+    "score": 2,
+    "reason": "Rank 2 contains Path.resolve and the complete current strict/non-strict behavior for a nonexistent path or symlink loop in the 3.13 snapshot; rank 3 adds the historical version-change note. Rank 1 is the neighboring os.path API, so provenance must distinguish them. The answer is supported without requiring a multi-chunk union.",
+    "reviewer": "Codex — direct reading of all top-3 against source/expected conditions",
+    "human_confirmed": false,
+    "reviewed_chunk_ids": [
+      "0e041a13a302c39d0382da320f043159486f8bcf10dd538d810d285418f2cacf",
+      "f1a000af0f0a4984d277d60a4e41b80dae00561c2641faa1a3cd13287971529a",
+      "ad41fdf4ee7ceec118c653e5c61344720b3aa68790dc242368ce0a800dab7b30"
+    ]
+  },
+  {
+    "strategy": "C",
+    "question_id": "q17",
+    "score": 2,
+    "reason": "Rank 1 chứa cảnh báo trả path không hợp lệ do xét từng ký tự và khuyên dùng commonpath; rank 2 minh họa /usr/l và /usr. Đủ trả lời độc lập với chunk thứ ba không liên quan trực tiếp.",
+    "reviewer": "Codex — direct reading of all top-3 against source/expected conditions",
+    "human_confirmed": false,
+    "reviewed_chunk_ids": [
+      "5b704f9ea7c8f832a3ea1b4c8b4c40ada4020e00db020e4f8aa18c25cb75a044",
+      "0e5c164249e0f4e4a91cb3f8f098f4e928bad37ef3e71ddb654b98dcd6bd6859",
+      "0e041a13a302c39d0382da320f043159486f8bcf10dd538d810d285418f2cacf"
+    ]
+  },
+  {
+    "strategy": "C",
+    "question_id": "q18",
+    "score": 2,
+    "reason": "Rank 1 giữ trọn ngữ cảnh Windows, ba lựa chọn và điều kiện đóng additional opens trước exit; rank 2 làm rõ delete/delete_on_close. Đủ ngoại lệ PermissionError và truy nguồn tempfile.",
+    "reviewer": "Codex — direct reading of all top-3 against source/expected conditions",
+    "human_confirmed": false,
+    "reviewed_chunk_ids": [
+      "df8accac72f4ad7758f170bd6ea91acb6061d8c4c964f77b9178ed86835bf3dc",
+      "63ecef0f78f670ff3831ebd35813615e511d9679f71b7d55f92573a47199b1fb",
+      "21b96f020ce37f164ec48f0b25a3c3e71b3bb3de07b02a98329142c08eabdb90"
+    ]
+  },
+  {
+    "strategy": "C",
+    "question_id": "q19",
+    "score": 2,
+    "reason": "Rank 1 là toàn bộ footnote nêu cả quoted embedded newline, extra carriage return trên CRLF và csv tự xử lý newline; các rank còn lại cung cấp cách mở writer/reader. Đủ hai vế câu hỏi.",
+    "reviewer": "Codex — direct reading of all top-3 against source/expected conditions",
+    "human_confirmed": false,
+    "reviewed_chunk_ids": [
+      "f4ce2c234b6ef871430fd8335055b214db80527cda8c0b364399ef30a4bd8679",
+      "4c066dfce8fe43600df6a5b40be12e83dc8e32e68762b819f2a3fdc825cf2b70",
+      "815793762db16c0aa8694c52a59ce0d779610375cc953f6f03da5d59f9844a3b"
+    ]
+  },
+  {
+    "strategy": "C",
+    "question_id": "q20",
+    "score": 2,
+    "reason": "Rank 1 giữ warning SQL injection và hướng dẫn DB-API parameter substitution bằng placeholder + tuple truyền vào execute; rank 2 có VALUES(?). Bằng chứng tương đương hợp lệ trên trang sqlite3 dù không đúng literal gold quote khai báo.",
+    "reviewer": "Codex — direct reading of all top-3 against source/expected conditions",
+    "human_confirmed": false,
+    "reviewed_chunk_ids": [
+      "fa13dc466ec9d42974f36ac63b33557ac7a9718661bcfbb5756e5cd7d4711980",
+      "354bd0aa36a7e7bbdddb612b9462f8f568860e15ef740d870ec9269a7336c1d6",
+      "96404e351b5edf0fc013fa8da10999b5c8318b860ca9839bd69d65c3fb47dcfa"
+    ]
+  }
+]

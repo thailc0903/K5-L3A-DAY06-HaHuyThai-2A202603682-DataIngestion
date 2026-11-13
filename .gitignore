@@ -8,3 +8,8 @@ __pycache__/
 .DS_Store
 .pytest_cache/
 *.sqlite
+.cache/
+.runtime/
+.bootstrap/
+results/qdrant/
+results/embedding_cache/

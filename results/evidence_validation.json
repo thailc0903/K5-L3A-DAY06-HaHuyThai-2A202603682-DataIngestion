@@ -1,0 +1,162 @@
+[
+  {
+    "question_id": "q01",
+    "source_id": "py313-string",
+    "page": "string",
+    "evidence_start": 28533,
+    "evidence_end": 28652,
+    "verified": true
+  },
+  {
+    "question_id": "q02",
+    "source_id": "py313-re",
+    "page": "re",
+    "evidence_start": 1298,
+    "evidence_end": 1670,
+    "verified": true
+  },
+  {
+    "question_id": "q03",
+    "source_id": "py313-difflib",
+    "page": "difflib",
+    "evidence_start": 1186,
+    "evidence_end": 1529,
+    "verified": true
+  },
+  {
+    "question_id": "q04",
+    "source_id": "py313-textwrap",
+    "page": "textwrap",
+    "evidence_start": 2826,
+    "evidence_end": 2993,
+    "verified": true
+  },
+  {
+    "question_id": "q05",
+    "source_id": "py313-unicodedata",
+    "page": "unicodedata",
+    "evidence_start": 5209,
+    "evidence_end": 5460,
+    "verified": true
+  },
+  {
+    "question_id": "q06",
+    "source_id": "py313-struct",
+    "page": "struct",
+    "evidence_start": 478,
+    "evidence_end": 1017,
+    "verified": true
+  },
+  {
+    "question_id": "q07",
+    "source_id": "py313-codecs",
+    "page": "codecs",
+    "evidence_start": 34849,
+    "evidence_end": 35412,
+    "verified": true
+  },
+  {
+    "question_id": "q08",
+    "source_id": "py313-collections",
+    "page": "collections",
+    "evidence_start": 8592,
+    "evidence_end": 8722,
+    "verified": true
+  },
+  {
+    "question_id": "q09",
+    "source_id": "py313-collections",
+    "page": "collections",
+    "evidence_start": 15925,
+    "evidence_end": 16404,
+    "verified": true
+  },
+  {
+    "question_id": "q10",
+    "source_id": "py313-heapq",
+    "page": "heapq",
+    "evidence_start": 1631,
+    "evidence_end": 1817,
+    "verified": true
+  },
+  {
+    "question_id": "q11",
+    "source_id": "py313-bisect",
+    "page": "bisect",
+    "evidence_start": 770,
+    "evidence_end": 1186,
+    "verified": true
+  },
+  {
+    "question_id": "q12",
+    "source_id": "py313-copy",
+    "page": "copy",
+    "evidence_start": 1531,
+    "evidence_end": 1670,
+    "verified": true
+  },
+  {
+    "question_id": "q13",
+    "source_id": "py313-datetime",
+    "page": "datetime",
+    "evidence_start": 4539,
+    "evidence_end": 4688,
+    "verified": true
+  },
+  {
+    "question_id": "q14",
+    "source_id": "py313-decimal",
+    "page": "decimal",
+    "evidence_start": 4583,
+    "evidence_end": 4896,
+    "verified": true
+  },
+  {
+    "question_id": "q15",
+    "source_id": "py313-statistics",
+    "page": "statistics",
+    "evidence_start": 7355,
+    "evidence_end": 7542,
+    "verified": true
+  },
+  {
+    "question_id": "q16",
+    "source_id": "py313-pathlib",
+    "page": "pathlib",
+    "evidence_start": 24881,
+    "evidence_end": 25420,
+    "verified": true
+  },
+  {
+    "question_id": "q17",
+    "source_id": "py313-os.path",
+    "page": "os.path",
+    "evidence_start": 3381,
+    "evidence_end": 3608,
+    "verified": true
+  },
+  {
+    "question_id": "q18",
+    "source_id": "py313-tempfile",
+    "page": "tempfile",
+    "evidence_start": 4746,
+    "evidence_end": 5232,
+    "verified": true
+  },
+  {
+    "question_id": "q19",
+    "source_id": "py313-csv",
+    "page": "csv",
+    "evidence_start": 21215,
+    "evidence_end": 21515,
+    "verified": true
+  },
+  {
+    "question_id": "q20",
+    "source_id": "py313-sqlite3",
+    "page": "sqlite3",
+    "evidence_start": 4543,
+    "evidence_end": 4808,
+    "verified": true
+  }
+]

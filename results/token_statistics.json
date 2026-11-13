@@ -1,0 +1,23 @@
+[
+  {
+    "strategy": "A",
+    "chunks": 2017,
+    "total_input_tokens_including_special_tokens": 271587,
+    "max_tokens": 274,
+    "over_512_n": 0
+  },
+  {
+    "strategy": "B",
+    "chunks": 1151,
+    "total_input_tokens_including_special_tokens": 241610,
+    "max_tokens": 452,
+    "over_512_n": 0
+  },
+  {
+    "strategy": "C",
+    "chunks": 1151,
+    "total_input_tokens_including_special_tokens": 241610,
+    "max_tokens": 452,
+    "over_512_n": 0
+  }
+]

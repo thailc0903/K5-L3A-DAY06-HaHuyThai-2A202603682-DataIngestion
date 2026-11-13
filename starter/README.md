@@ -1,5 +1,7 @@
 # Starter · PostgreSQL + pgvector
 
+> **Bài hoàn thiện dùng Qdrant local:** các module `src/` đã được triển khai. Hãy chạy từ root theo [README của bài nộp](../docs/RUNNING.md), dùng `python -m starter.src.run --phase dev` rồi `--phase test`. Phần dưới là hướng dẫn starter PostgreSQL gốc để tham chiếu; Docker, `.env` và `scripts/check_setup.py` không cần cho phương án đã chọn. Những mô tả TODO dưới đây phản ánh khung ban đầu.
+
 Bộ khởi động **tùy chọn** cho lab cá nhân. Docker Compose tạo PostgreSQL + pgvector local; các file trong `src/` là **khung pseudocode có TODO**, chưa đọc tài liệu, tạo embedding, lưu vector hay chạy benchmark. Bạn cần tự hiện thực. Vẫn có thể chọn Qdrant, Chroma hoặc vector store tương đương theo [GUIDE.md](../GUIDE.md).
 
 ## Cấu trúc

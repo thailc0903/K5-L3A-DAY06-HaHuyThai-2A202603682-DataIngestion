@@ -1,0 +1,15 @@
+test_alternative_same_page_instruction_accepted_in_one_chunk (test_evidence_review.EvidenceReviewTests.test_alternative_same_page_instruction_accepted_in_one_chunk) ... ok
+test_c_is_not_implicitly_assumed_identical (test_evidence_review.EvidenceReviewTests.test_c_is_not_implicitly_assumed_identical) ... ok
+test_changed_source_text_cannot_reuse_a_prior_judgment (test_evidence_review.EvidenceReviewTests.test_changed_source_text_cannot_reuse_a_prior_judgment) ... ok
+test_incomplete_or_neighbor_api_evidence_stays_negative (test_evidence_review.EvidenceReviewTests.test_incomplete_or_neighbor_api_evidence_stays_negative) ... ok
+test_ai_suggestion_does_not_count_as_student_review (test_human_review.HumanReviewTests.test_ai_suggestion_does_not_count_as_student_review) ... ok
+test_confirmation_without_score_reason_and_identity_is_invalid (test_human_review.HumanReviewTests.test_confirmation_without_score_reason_and_identity_is_invalid) ... ok
+test_evidence_is_not_source_only_or_multichunk (test_pipeline.PipelineTests.test_evidence_is_not_source_only_or_multichunk) ... ok
+test_normalization (test_pipeline.PipelineTests.test_normalization) ... ok
+test_qdrant_reload_filter_stale_removal_and_reopen (test_pipeline.PipelineTests.test_qdrant_reload_filter_stale_removal_and_reopen) ... ok
+test_source_spans_and_determinism (test_pipeline.PipelineTests.test_source_spans_and_determinism) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 1.856s
+
+OK

@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed,500,50,document_id;source;page;category;version;language;module;document_type;char_start;char_end,none,BAAI/bge-small-en-v1.5;384;ONNX;revision aa8f8b060edb00e03bfdd08813a2949946c8ba55,Baseline fixed windows may cut evidence/conditions.,4/15,6/15,0/5,2/5,Measured 2026-11-13; exact quote metric; no test tuning; AI-assisted labels disclosed; C reuses B embeddings; selection C by predeclared tie-break.
+B,heading_paragraph,1000,0,document_id;source;page;category;version;language;module;document_type;char_start;char_end,none,BAAI/bge-small-en-v1.5;384;ONNX;revision aa8f8b060edb00e03bfdd08813a2949946c8ba55,Paragraph grouping should improve context but can dilute short API facts.,11/15,13/15,3/5,3/5,Measured 2026-11-13; exact quote metric; no test tuning; AI-assisted labels disclosed; C reuses B embeddings; selection C by predeclared tie-break.
+C,heading_paragraph,1000,0,document_id;source;page;category;version;language;module;document_type;char_start;char_end,category only when supplied in question,BAAI/bge-small-en-v1.5;384;ONNX;revision aa8f8b060edb00e03bfdd08813a2949946c8ba55,"With trusted question context, category filter narrows scope; accuracy uplift is not guaranteed.",11/15,13/15,3/5,3/5,Measured 2026-11-13; exact quote metric; no test tuning; AI-assisted labels disclosed; C reuses B embeddings; selection C by predeclared tie-break.

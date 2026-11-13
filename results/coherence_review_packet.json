@@ -1,0 +1,842 @@
+[
+  {
+    "strategy": "A",
+    "document_id": "py313-array",
+    "page": "array",
+    "anchor": 247,
+    "source_paragraph": "This module defines an object type which can compactly represent an array of\nbasic values: characters, integers, floating-point numbers. Arrays are mutable sequence types and behave very much like lists, except that the type of objects stored in\nthem is constrained. The type is specified at object creation time by using a type code , which is a single character. The following type codes are\ndefined:",
+    "paragraph_start": 46,
+    "paragraph_end": 448,
+    "chunk": {
+      "chunk_id": "15052533de8826817a7183aa2cbe6a736cccf87b7188a883bfb8cab58f5089fa",
+      "document_id": "py313-array",
+      "source": "https://docs.python.org/3.13/library/array.html",
+      "page": "array",
+      "text": "# array — Efficient arrays of numeric values\n\nThis module defines an object type which can compactly represent an array of\nbasic values: characters, integers, floating-point numbers. Arrays are mutable sequence types and behave very much like lists, except that the type of objects stored in\nthem is constrained. The type is specified at object creation time by using a type code , which is a single character. The following type codes are\ndefined:\n\nType code\n\nC Type\n\nPython Type\n\nMinimum size in by",
+      "metadata": {
+        "category": "Data Types",
+        "version": "3.13.18",
+        "language": "en",
+        "module": "array",
+        "document_type": "technical_reference",
+        "char_start": 0,
+        "char_end": 500
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": ""
+  },
+  {
+    "strategy": "A",
+    "document_id": "py313-bisect",
+    "page": "bisect",
+    "anchor": 193,
+    "source_paragraph": "This module provides support for maintaining a list in sorted order without\nhaving to sort the list after each insertion. For long lists of items with\nexpensive comparison operations, this can be an improvement over\nlinear searches or frequent resorting.",
+    "paragraph_start": 66,
+    "paragraph_end": 320,
+    "chunk": {
+      "chunk_id": "07e2c69d985a11e0df1d1b210f8d467f4c440c77403e54fd926fc6e17a47ab85",
+      "document_id": "py313-bisect",
+      "source": "https://docs.python.org/3.13/library/bisect.html",
+      "page": "bisect",
+      "text": "# bisect — Array bisection algorithm\n\nSource code: Lib/bisect.py\n\nThis module provides support for maintaining a list in sorted order without\nhaving to sort the list after each insertion. For long lists of items with\nexpensive comparison operations, this can be an improvement over\nlinear searches or frequent resorting.\n\nThe module is called bisect because it uses a basic bisection\nalgorithm to do its work. Unlike other bisection tools that search for a\nspecific value, the functions in this modul",
+      "metadata": {
+        "category": "Data Types",
+        "version": "3.13.18",
+        "language": "en",
+        "module": "bisect",
+        "document_type": "technical_reference",
+        "char_start": 0,
+        "char_end": 500
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": ""
+  },
+  {
+    "strategy": "A",
+    "document_id": "py313-codecs",
+    "page": "codecs",
+    "anchor": 353,
+    "source_paragraph": "This module defines base classes for standard Python codecs (encoders and\ndecoders) and provides access to the internal Python codec registry, which\nmanages the codec and error handling lookup process. Most standard codecs\nare text encodings , which encode text to bytes (and\ndecode bytes to text), but there are also codecs provided that encode text to\ntext, and bytes to bytes. Custom codecs may encode and decode between arbitrary\ntypes, but some module features are restricted to be used specifically with text encodings or with codecs that encode to bytes .",
+    "paragraph_start": 72,
+    "paragraph_end": 634,
+    "chunk": {
+      "chunk_id": "45e1c428477548140c88ed9ecfbc09d3d5d9060ce1295cec242d22743288520d",
+      "document_id": "py313-codecs",
+      "source": "https://docs.python.org/3.13/library/codecs.html",
+      "page": "codecs",
+      "text": "# codecs — Codec registry and base classes\n\nSource code: Lib/codecs.py\n\nThis module defines base classes for standard Python codecs (encoders and\ndecoders) and provides access to the internal Python codec registry, which\nmanages the codec and error handling lookup process. Most standard codecs\nare text encodings , which encode text to bytes (and\ndecode bytes to text), but there are also codecs provided that encode text to\ntext, and bytes to bytes. Custom codecs may encode and decode between arbi",
+      "metadata": {
+        "category": "Binary Data Services",
+        "version": "3.13.18",
+        "language": "en",
+        "module": "codecs",
+        "document_type": "technical_reference",
+        "char_start": 0,
+        "char_end": 500
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": ""
+  },
+  {
+    "strategy": "A",
+    "document_id": "py313-collections",
+    "page": "collections",
+    "anchor": 158,
+    "source_paragraph": "This module implements specialized container datatypes providing alternatives to\nPython’s general purpose built-in containers, dict , list , set , and tuple .",
+    "paragraph_start": 79,
+    "paragraph_end": 237,
+    "chunk": {
+      "chunk_id": "e9e86fb0d712b27bd63e019a0dc265202faddbf6b8ae7bc148fa11d9bb39a190",
+      "document_id": "py313-collections",
+      "source": "https://docs.python.org/3.13/library/collections.html",
+      "page": "collections",
+      "text": "# collections — Container datatypes\n\nSource code: Lib/collections/__init__.py\n\nThis module implements specialized container datatypes providing alternatives to\nPython’s general purpose built-in containers, dict , list , set , and tuple .\n\nnamedtuple()\n\nfactory function for creating tuple subclasses with named fields\n\ndeque\n\nlist-like container with fast appends and pops on either end\n\nChainMap\n\ndict-like class for creating a single view of multiple mappings\n\nCounter\n\ndict subclass for counting h",
+      "metadata": {
+        "category": "Data Types",
+        "version": "3.13.18",
+        "language": "en",
+        "module": "collections",
+        "document_type": "technical_reference",
+        "char_start": 0,
+        "char_end": 500
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": ""
+  },
+  {
+    "strategy": "A",
+    "document_id": "py313-collections.abc",
+    "page": "collections.abc",
+    "anchor": 267,
+    "source_paragraph": "This module provides abstract base classes that\ncan be used to test whether a class provides a particular interface; for\nexample, whether it is hashable or whether it is a mapping .",
+    "paragraph_start": 177,
+    "paragraph_end": 358,
+    "chunk": {
+      "chunk_id": "bf3fa0b62924651f86ff5849347117e076b5769d1c0ab68ccd4085875bf4cd4e",
+      "document_id": "py313-collections.abc",
+      "source": "https://docs.python.org/3.13/library/collections.abc.html",
+      "page": "collections.abc",
+      "text": "# collections.abc — Abstract Base Classes for Containers\n\nAdded in version 3.3: Formerly, this module was part of the collections module.\n\nSource code: Lib/_collections_abc.py\n\nThis module provides abstract base classes that\ncan be used to test whether a class provides a particular interface; for\nexample, whether it is hashable or whether it is a mapping .\n\nAn issubclass() or isinstance() test for an interface works in one\nof three ways.\n\nA newly written class can inherit directly from one of th",
+      "metadata": {
+        "category": "Data Types",
+        "version": "3.13.18",
+        "language": "en",
+        "module": "collections.abc",
+        "document_type": "technical_reference",
+        "char_start": 0,
+        "char_end": 500
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": ""
+  },
+  {
+    "strategy": "A",
+    "document_id": "py313-configparser",
+    "page": "configparser",
+    "anchor": 208,
+    "source_paragraph": "This module provides the ConfigParser class which implements a basic\nconfiguration language which provides a structure similar to what’s found in\nMicrosoft Windows INI files. You can use this to write Python programs which\ncan be customized by end users easily.",
+    "paragraph_start": 78,
+    "paragraph_end": 339,
+    "chunk": {
+      "chunk_id": "870708c7deb8fc6c50b99988eb0c5d911f94a7841295d4ffd79926cde55e137e",
+      "document_id": "py313-configparser",
+      "source": "https://docs.python.org/3.13/library/configparser.html",
+      "page": "configparser",
+      "text": "# configparser — Configuration file parser\n\nSource code: Lib/configparser.py\n\nThis module provides the ConfigParser class which implements a basic\nconfiguration language which provides a structure similar to what’s found in\nMicrosoft Windows INI files. You can use this to write Python programs which\ncan be customized by end users easily.\n\nNote\n\nThis library does not interpret or write the value-type prefixes used in\nthe Windows Registry extended version of INI syntax.\n\nSee also\n\nModule tomllib",
+      "metadata": {
+        "category": "File Formats",
+        "version": "3.13.18",
+        "language": "en",
+        "module": "configparser",
+        "document_type": "technical_reference",
+        "char_start": 0,
+        "char_end": 498
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": ""
+  },
+  {
+    "strategy": "A",
+    "document_id": "py313-copy",
+    "page": "copy",
+    "anchor": 232,
+    "source_paragraph": "Assignment statements in Python do not copy objects, they create bindings\nbetween a target and an object. For collections that are mutable or contain\nmutable items, a copy is sometimes needed so one can change one copy without\nchanging the other. This module provides generic shallow and deep copy\noperations (explained below).",
+    "paragraph_start": 69,
+    "paragraph_end": 396,
+    "chunk": {
+      "chunk_id": "f358b89e16ca75420e2edb97c04fbd2fb8c56de3342b3ecb28f7166131406454",
+      "document_id": "py313-copy",
+      "source": "https://docs.python.org/3.13/library/copy.html",
+      "page": "copy",
+      "text": "# copy — Shallow and deep copy operations\n\nSource code: Lib/copy.py\n\nAssignment statements in Python do not copy objects, they create bindings\nbetween a target and an object. For collections that are mutable or contain\nmutable items, a copy is sometimes needed so one can change one copy without\nchanging the other. This module provides generic shallow and deep copy\noperations (explained below).\n\nInterface summary:\n\ncopy. copy ( obj )\n\nReturn a shallow copy of obj .\n\ncopy. deepcopy ( obj [ , memo",
+      "metadata": {
+        "category": "Data Types",
+        "version": "3.13.18",
+        "language": "en",
+        "module": "copy",
+        "document_type": "technical_reference",
+        "char_start": 0,
+        "char_end": 499
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": ""
+  },
+  {
+    "strategy": "A",
+    "document_id": "py313-csv",
+    "page": "csv",
+    "anchor": 420,
+    "source_paragraph": "The so-called CSV (Comma Separated Values) format is the most common import and\nexport format for spreadsheets and databases. CSV format was used for many\nyears prior to attempts to describe the format in a standardized way in RFC 4180 . The lack of a well-defined standard means that subtle differences\noften exist in the data produced and consumed by different applications. These\ndifferences can make it annoying to process CSV files from multiple sources.\nStill, while the delimiters and quoting characters vary, the overall format is\nsimilar enough that it is possible to write a single module which can\nefficiently manipulate such data, hiding the details of reading and writing the\ndata from the programmer.",
+    "paragraph_start": 63,
+    "paragraph_end": 777,
+    "chunk": {
+      "chunk_id": "b7d13ad985b55c069490d68ec8abc5f65f79cf0c03e3ed5468a6e482b0f6c819",
+      "document_id": "py313-csv",
+      "source": "https://docs.python.org/3.13/library/csv.html",
+      "page": "csv",
+      "text": "# csv — CSV File Reading and Writing\n\nSource code: Lib/csv.py\n\nThe so-called CSV (Comma Separated Values) format is the most common import and\nexport format for spreadsheets and databases. CSV format was used for many\nyears prior to attempts to describe the format in a standardized way in RFC 4180 . The lack of a well-defined standard means that subtle differences\noften exist in the data produced and consumed by different applications. These\ndifferences can make it annoying to process CSV files",
+      "metadata": {
+        "category": "File Formats",
+        "version": "3.13.18",
+        "language": "en",
+        "module": "csv",
+        "document_type": "technical_reference",
+        "char_start": 0,
+        "char_end": 499
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": ""
+  },
+  {
+    "strategy": "A",
+    "document_id": "py313-datetime",
+    "page": "datetime",
+    "anchor": 218,
+    "source_paragraph": "While date and time arithmetic is supported, the focus of the implementation is\non efficient attribute extraction for output formatting and manipulation.",
+    "paragraph_start": 142,
+    "paragraph_end": 295,
+    "chunk": {
+      "chunk_id": "3a404e972d772eb4b787a1f07a4e0265c253a9ba887b2f2d64f848f326bb2596",
+      "document_id": "py313-datetime",
+      "source": "https://docs.python.org/3.13/library/datetime.html",
+      "page": "datetime",
+      "text": "# datetime — Basic date and time types\n\nSource code: Lib/datetime.py\n\nThe datetime module supplies classes for manipulating dates and times.\n\nWhile date and time arithmetic is supported, the focus of the implementation is\non efficient attribute extraction for output formatting and manipulation.\n\nTip\n\nSkip to the format codes .\n\nSee also\n\nModule calendar\n\nGeneral calendar related functions.\n\nModule time\n\nTime access and conversions.\n\nModule zoneinfo\n\nConcrete time zones representing the IANA time",
+      "metadata": {
+        "category": "Data Types",
+        "version": "3.13.18",
+        "language": "en",
+        "module": "datetime",
+        "document_type": "technical_reference",
+        "char_start": 0,
+        "char_end": 500
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": ""
+  },
+  {
+    "strategy": "A",
+    "document_id": "py313-decimal",
+    "page": "decimal",
+    "anchor": 167,
+    "source_paragraph": "The decimal module provides support for fast correctly rounded\ndecimal floating-point arithmetic. It offers several advantages over the float datatype:",
+    "paragraph_start": 92,
+    "paragraph_end": 243,
+    "chunk": {
+      "chunk_id": "54bf497bc68e800fe245a4f44d8ecd87b6c95b6e865808579d1b0645d6a077e4",
+      "document_id": "py313-decimal",
+      "source": "https://docs.python.org/3.13/library/decimal.html",
+      "page": "decimal",
+      "text": "# decimal — Decimal fixed-point and floating-point arithmetic\n\nSource code: Lib/decimal.py\n\nThe decimal module provides support for fast correctly rounded\ndecimal floating-point arithmetic. It offers several advantages over the float datatype:\n\nDecimal “is based on a floating-point model which was designed\nwith people in mind, and necessarily has a paramount guiding principle –\ncomputers must provide an arithmetic that works in the same way as the\narithmetic that people learn at school.” – excer",
+      "metadata": {
+        "category": "Numeric and Mathematical Modules",
+        "version": "3.13.18",
+        "language": "en",
+        "module": "decimal",
+        "document_type": "technical_reference",
+        "char_start": 0,
+        "char_end": 500
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": ""
+  },
+  {
+    "strategy": "B",
+    "document_id": "py313-array",
+    "page": "array",
+    "anchor": 247,
+    "source_paragraph": "This module defines an object type which can compactly represent an array of\nbasic values: characters, integers, floating-point numbers. Arrays are mutable sequence types and behave very much like lists, except that the type of objects stored in\nthem is constrained. The type is specified at object creation time by using a type code , which is a single character. The following type codes are\ndefined:",
+    "paragraph_start": 46,
+    "paragraph_end": 448,
+    "chunk": {
+      "chunk_id": "e65c6f2b958239c47b376da8f105914bef2dee8794780d67211013bef4c3d1e7",
+      "document_id": "py313-array",
+      "source": "https://docs.python.org/3.13/library/array.html",
+      "page": "array",
+      "text": "# array — Efficient arrays of numeric values\n\nThis module defines an object type which can compactly represent an array of\nbasic values: characters, integers, floating-point numbers. Arrays are mutable sequence types and behave very much like lists, except that the type of objects stored in\nthem is constrained. The type is specified at object creation time by using a type code , which is a single character. The following type codes are\ndefined:\n\nType code\n\nC Type\n\nPython Type\n\nMinimum size in bytes\n\nNotes\n\n'b'\n\nsigned char\n\nint\n\n1\n\n'B'\n\nunsigned char\n\nint\n\n1\n\n'u'\n\nwchar_t\n\nUnicode character\n\n2\n\n(1)\n\n'w'\n\nPy_UCS4\n\nUnicode character\n\n4\n\n(2)\n\n'h'\n\nsigned short\n\nint\n\n2\n\n'H'\n\nunsigned short\n\nint\n\n2\n\n'i'\n\nsigned int\n\nint\n\n2\n\n'I'\n\nunsigned int\n\nint\n\n2\n\n'l'\n\nsigned long\n\nint\n\n4\n\n'L'\n\nunsigned long\n\nint\n\n4\n\n'q'\n\nsigned long long\n\nint\n\n8\n\n'Q'\n\nunsigned long long\n\nint\n\n8\n\n'f'\n\nfloat\n\nfloat\n\n4\n\n'd'\n\ndouble\n\nfloat\n\n8\n\nNotes:\n\nIt can be 16 bits or 32 bits depending on the platform.",
+      "metadata": {
+        "category": "Data Types",
+        "version": "3.13.18",
+        "language": "en",
+        "module": "array",
+        "document_type": "technical_reference",
+        "char_start": 0,
+        "char_end": 982
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": ""
+  },
+  {
+    "strategy": "B",
+    "document_id": "py313-bisect",
+    "page": "bisect",
+    "anchor": 193,
+    "source_paragraph": "This module provides support for maintaining a list in sorted order without\nhaving to sort the list after each insertion. For long lists of items with\nexpensive comparison operations, this can be an improvement over\nlinear searches or frequent resorting.",
+    "paragraph_start": 66,
+    "paragraph_end": 320,
+    "chunk": {
+      "chunk_id": "cdde81c371dc111aa0fdb2905b3b9f5c78002eaa2c2594a66eb20771fee8d742",
+      "document_id": "py313-bisect",
+      "source": "https://docs.python.org/3.13/library/bisect.html",
+      "page": "bisect",
+      "text": "# bisect — Array bisection algorithm\n\nSource code: Lib/bisect.py\n\nThis module provides support for maintaining a list in sorted order without\nhaving to sort the list after each insertion. For long lists of items with\nexpensive comparison operations, this can be an improvement over\nlinear searches or frequent resorting.\n\nThe module is called bisect because it uses a basic bisection\nalgorithm to do its work. Unlike other bisection tools that search for a\nspecific value, the functions in this module are designed to locate an\ninsertion point. Accordingly, the functions never call an __eq__() method to determine whether a value has been found. Instead, the\nfunctions only call the __lt__() method and will return an insertion\npoint between values in an array.\n\nNote",
+      "metadata": {
+        "category": "Data Types",
+        "version": "3.13.18",
+        "language": "en",
+        "module": "bisect",
+        "document_type": "technical_reference",
+        "char_start": 0,
+        "char_end": 768
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": ""
+  },
+  {
+    "strategy": "B",
+    "document_id": "py313-codecs",
+    "page": "codecs",
+    "anchor": 353,
+    "source_paragraph": "This module defines base classes for standard Python codecs (encoders and\ndecoders) and provides access to the internal Python codec registry, which\nmanages the codec and error handling lookup process. Most standard codecs\nare text encodings , which encode text to bytes (and\ndecode bytes to text), but there are also codecs provided that encode text to\ntext, and bytes to bytes. Custom codecs may encode and decode between arbitrary\ntypes, but some module features are restricted to be used specifically with text encodings or with codecs that encode to bytes .",
+    "paragraph_start": 72,
+    "paragraph_end": 634,
+    "chunk": {
+      "chunk_id": "db5673893a82256d8f7256fae058fd223d8f58abc773c97e00d72fba8199598c",
+      "document_id": "py313-codecs",
+      "source": "https://docs.python.org/3.13/library/codecs.html",
+      "page": "codecs",
+      "text": "# codecs — Codec registry and base classes\n\nSource code: Lib/codecs.py\n\nThis module defines base classes for standard Python codecs (encoders and\ndecoders) and provides access to the internal Python codec registry, which\nmanages the codec and error handling lookup process. Most standard codecs\nare text encodings , which encode text to bytes (and\ndecode bytes to text), but there are also codecs provided that encode text to\ntext, and bytes to bytes. Custom codecs may encode and decode between arbitrary\ntypes, but some module features are restricted to be used specifically with text encodings or with codecs that encode to bytes .\n\nThe module defines the following functions for encoding and decoding with\nany codec:\n\ncodecs. encode ( obj , encoding = 'utf-8' , errors = 'strict' )\n\nEncodes obj using the codec registered for encoding .",
+      "metadata": {
+        "category": "Binary Data Services",
+        "version": "3.13.18",
+        "language": "en",
+        "module": "codecs",
+        "document_type": "technical_reference",
+        "char_start": 0,
+        "char_end": 840
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": ""
+  },
+  {
+    "strategy": "B",
+    "document_id": "py313-collections",
+    "page": "collections",
+    "anchor": 158,
+    "source_paragraph": "This module implements specialized container datatypes providing alternatives to\nPython’s general purpose built-in containers, dict , list , set , and tuple .",
+    "paragraph_start": 79,
+    "paragraph_end": 237,
+    "chunk": {
+      "chunk_id": "16322302be919f27776cebaebc82883b0b6a199206e6c1ec4ed05aa7c036d713",
+      "document_id": "py313-collections",
+      "source": "https://docs.python.org/3.13/library/collections.html",
+      "page": "collections",
+      "text": "# collections — Container datatypes\n\nSource code: Lib/collections/__init__.py\n\nThis module implements specialized container datatypes providing alternatives to\nPython’s general purpose built-in containers, dict , list , set , and tuple .\n\nnamedtuple()\n\nfactory function for creating tuple subclasses with named fields\n\ndeque\n\nlist-like container with fast appends and pops on either end\n\nChainMap\n\ndict-like class for creating a single view of multiple mappings\n\nCounter\n\ndict subclass for counting hashable objects\n\nOrderedDict\n\ndict subclass that remembers the order entries were added\n\ndefaultdict\n\ndict subclass that calls a factory function to supply missing values\n\nUserDict\n\nwrapper around dictionary objects for easier dict subclassing\n\nUserList\n\nwrapper around list objects for easier list subclassing\n\nUserString\n\nwrapper around string objects for easier string subclassing",
+      "metadata": {
+        "category": "Data Types",
+        "version": "3.13.18",
+        "language": "en",
+        "module": "collections",
+        "document_type": "technical_reference",
+        "char_start": 0,
+        "char_end": 883
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": ""
+  },
+  {
+    "strategy": "B",
+    "document_id": "py313-collections.abc",
+    "page": "collections.abc",
+    "anchor": 267,
+    "source_paragraph": "This module provides abstract base classes that\ncan be used to test whether a class provides a particular interface; for\nexample, whether it is hashable or whether it is a mapping .",
+    "paragraph_start": 177,
+    "paragraph_end": 358,
+    "chunk": {
+      "chunk_id": "48d3521bc51d9560bf55cd0551981dcbff1f11282f71dc45cd6e7147b998feaa",
+      "document_id": "py313-collections.abc",
+      "source": "https://docs.python.org/3.13/library/collections.abc.html",
+      "page": "collections.abc",
+      "text": "# collections.abc — Abstract Base Classes for Containers\n\nAdded in version 3.3: Formerly, this module was part of the collections module.\n\nSource code: Lib/_collections_abc.py\n\nThis module provides abstract base classes that\ncan be used to test whether a class provides a particular interface; for\nexample, whether it is hashable or whether it is a mapping .\n\nAn issubclass() or isinstance() test for an interface works in one\nof three ways.\n\nA newly written class can inherit directly from one of the\nabstract base classes. The class must supply the required abstract\nmethods. The remaining mixin methods come from inheritance and can be\noverridden if desired. Other methods may be added as needed:\n\nclass C ( Sequence ): # Direct inheritance def __init__ ( self ): ... # Extra method not required by the ABC def __getitem__ ( self , index ): ... # Required abstract method def __len__ ( self ): ... # Required abstract method def count ( self , value ): ... # Optionally override a mixin method",
+      "metadata": {
+        "category": "Data Types",
+        "version": "3.13.18",
+        "language": "en",
+        "module": "collections.abc",
+        "document_type": "technical_reference",
+        "char_start": 0,
+        "char_end": 996
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": ""
+  },
+  {
+    "strategy": "B",
+    "document_id": "py313-configparser",
+    "page": "configparser",
+    "anchor": 208,
+    "source_paragraph": "This module provides the ConfigParser class which implements a basic\nconfiguration language which provides a structure similar to what’s found in\nMicrosoft Windows INI files. You can use this to write Python programs which\ncan be customized by end users easily.",
+    "paragraph_start": 78,
+    "paragraph_end": 339,
+    "chunk": {
+      "chunk_id": "5344c55f0a6ea8772e6a924937f3c970e6e44dbf60192976f05c9819708a4b41",
+      "document_id": "py313-configparser",
+      "source": "https://docs.python.org/3.13/library/configparser.html",
+      "page": "configparser",
+      "text": "# configparser — Configuration file parser\n\nSource code: Lib/configparser.py\n\nThis module provides the ConfigParser class which implements a basic\nconfiguration language which provides a structure similar to what’s found in\nMicrosoft Windows INI files. You can use this to write Python programs which\ncan be customized by end users easily.\n\nNote\n\nThis library does not interpret or write the value-type prefixes used in\nthe Windows Registry extended version of INI syntax.\n\nSee also\n\nModule tomllib\n\nTOML is a well-specified format for application configuration files.\nIt is specifically designed to be an improved version of INI.\n\nModule shlex\n\nSupport for creating Unix shell-like mini-languages which can also\nbe used for application configuration files.\n\nModule json\n\nThe json module implements a subset of JavaScript syntax which is\nsometimes used for configuration, but does not support comments.",
+      "metadata": {
+        "category": "File Formats",
+        "version": "3.13.18",
+        "language": "en",
+        "module": "configparser",
+        "document_type": "technical_reference",
+        "char_start": 0,
+        "char_end": 902
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": ""
+  },
+  {
+    "strategy": "B",
+    "document_id": "py313-copy",
+    "page": "copy",
+    "anchor": 232,
+    "source_paragraph": "Assignment statements in Python do not copy objects, they create bindings\nbetween a target and an object. For collections that are mutable or contain\nmutable items, a copy is sometimes needed so one can change one copy without\nchanging the other. This module provides generic shallow and deep copy\noperations (explained below).",
+    "paragraph_start": 69,
+    "paragraph_end": 396,
+    "chunk": {
+      "chunk_id": "5a6f3f9e2939f3986d6b25f1e4e0c3aa9f23ec4eee0b3c8b81f755d47fd2858c",
+      "document_id": "py313-copy",
+      "source": "https://docs.python.org/3.13/library/copy.html",
+      "page": "copy",
+      "text": "# copy — Shallow and deep copy operations\n\nSource code: Lib/copy.py\n\nAssignment statements in Python do not copy objects, they create bindings\nbetween a target and an object. For collections that are mutable or contain\nmutable items, a copy is sometimes needed so one can change one copy without\nchanging the other. This module provides generic shallow and deep copy\noperations (explained below).\n\nInterface summary:\n\ncopy. copy ( obj )\n\nReturn a shallow copy of obj .\n\ncopy. deepcopy ( obj [ , memo ] )\n\nReturn a deep copy of obj .\n\ncopy. replace ( obj , / , ** changes )\n\nCreates a new object of the same type as obj , replacing fields with values\nfrom changes .\n\nAdded in version 3.13.\n\nexception copy. Error\n\nRaised for module specific errors.\n\nThe difference between shallow and deep copying is only relevant for compound\nobjects (objects that contain other objects, like lists or class instances):",
+      "metadata": {
+        "category": "Data Types",
+        "version": "3.13.18",
+        "language": "en",
+        "module": "copy",
+        "document_type": "technical_reference",
+        "char_start": 0,
+        "char_end": 903
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": ""
+  },
+  {
+    "strategy": "B",
+    "document_id": "py313-csv",
+    "page": "csv",
+    "anchor": 420,
+    "source_paragraph": "The so-called CSV (Comma Separated Values) format is the most common import and\nexport format for spreadsheets and databases. CSV format was used for many\nyears prior to attempts to describe the format in a standardized way in RFC 4180 . The lack of a well-defined standard means that subtle differences\noften exist in the data produced and consumed by different applications. These\ndifferences can make it annoying to process CSV files from multiple sources.\nStill, while the delimiters and quoting characters vary, the overall format is\nsimilar enough that it is possible to write a single module which can\nefficiently manipulate such data, hiding the details of reading and writing the\ndata from the programmer.",
+    "paragraph_start": 63,
+    "paragraph_end": 777,
+    "chunk": {
+      "chunk_id": "3f4a6efa0dcad9c278feca6cc96288a0562646ebb2d586d7b46e09a124993601",
+      "document_id": "py313-csv",
+      "source": "https://docs.python.org/3.13/library/csv.html",
+      "page": "csv",
+      "text": "# csv — CSV File Reading and Writing\n\nSource code: Lib/csv.py\n\nThe so-called CSV (Comma Separated Values) format is the most common import and\nexport format for spreadsheets and databases. CSV format was used for many\nyears prior to attempts to describe the format in a standardized way in RFC 4180 . The lack of a well-defined standard means that subtle differences\noften exist in the data produced and consumed by different applications. These\ndifferences can make it annoying to process CSV files from multiple sources.\nStill, while the delimiters and quoting characters vary, the overall format is\nsimilar enough that it is possible to write a single module which can\nefficiently manipulate such data, hiding the details of reading and writing the\ndata from the programmer.",
+      "metadata": {
+        "category": "File Formats",
+        "version": "3.13.18",
+        "language": "en",
+        "module": "csv",
+        "document_type": "technical_reference",
+        "char_start": 0,
+        "char_end": 777
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": ""
+  },
+  {
+    "strategy": "B",
+    "document_id": "py313-datetime",
+    "page": "datetime",
+    "anchor": 218,
+    "source_paragraph": "While date and time arithmetic is supported, the focus of the implementation is\non efficient attribute extraction for output formatting and manipulation.",
+    "paragraph_start": 142,
+    "paragraph_end": 295,
+    "chunk": {
+      "chunk_id": "a69e4c365ad79552680d393f1d1396d40b5f2a8aca16cc7bdb51ecaa3f42214d",
+      "document_id": "py313-datetime",
+      "source": "https://docs.python.org/3.13/library/datetime.html",
+      "page": "datetime",
+      "text": "# datetime — Basic date and time types\n\nSource code: Lib/datetime.py\n\nThe datetime module supplies classes for manipulating dates and times.\n\nWhile date and time arithmetic is supported, the focus of the implementation is\non efficient attribute extraction for output formatting and manipulation.\n\nTip\n\nSkip to the format codes .\n\nSee also\n\nModule calendar\n\nGeneral calendar related functions.\n\nModule time\n\nTime access and conversions.\n\nModule zoneinfo\n\nConcrete time zones representing the IANA time zone database.\n\nPackage dateutil\n\nThird-party library with expanded time zone and parsing support.\n\nPackage DateType\n\nThird-party library that introduces distinct static types to e.g. allow static type checkers to differentiate between naive and aware datetimes.",
+      "metadata": {
+        "category": "Data Types",
+        "version": "3.13.18",
+        "language": "en",
+        "module": "datetime",
+        "document_type": "technical_reference",
+        "char_start": 0,
+        "char_end": 763
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": ""
+  },
+  {
+    "strategy": "B",
+    "document_id": "py313-decimal",
+    "page": "decimal",
+    "anchor": 167,
+    "source_paragraph": "The decimal module provides support for fast correctly rounded\ndecimal floating-point arithmetic. It offers several advantages over the float datatype:",
+    "paragraph_start": 92,
+    "paragraph_end": 243,
+    "chunk": {
+      "chunk_id": "66c005cd3c2ffbe9f9af8766d621b3af43523392c9a4791f97fb83e708ec14b6",
+      "document_id": "py313-decimal",
+      "source": "https://docs.python.org/3.13/library/decimal.html",
+      "page": "decimal",
+      "text": "# decimal — Decimal fixed-point and floating-point arithmetic\n\nSource code: Lib/decimal.py\n\nThe decimal module provides support for fast correctly rounded\ndecimal floating-point arithmetic. It offers several advantages over the float datatype:\n\nDecimal “is based on a floating-point model which was designed\nwith people in mind, and necessarily has a paramount guiding principle –\ncomputers must provide an arithmetic that works in the same way as the\narithmetic that people learn at school.” – excerpt from the decimal\narithmetic specification.\n\nDecimal numbers can be represented exactly. In contrast, numbers like 1.1 and 2.2 do not have exact representations in binary\nfloating point. End users typically would not expect 1.1 + 2.2 to display\nas 3.3000000000000003 as it does with binary floating point.",
+      "metadata": {
+        "category": "Numeric and Mathematical Modules",
+        "version": "3.13.18",
+        "language": "en",
+        "module": "decimal",
+        "document_type": "technical_reference",
+        "char_start": 0,
+        "char_end": 807
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": ""
+  },
+  {
+    "strategy": "C",
+    "document_id": "py313-array",
+    "page": "array",
+    "anchor": 247,
+    "source_paragraph": "This module defines an object type which can compactly represent an array of\nbasic values: characters, integers, floating-point numbers. Arrays are mutable sequence types and behave very much like lists, except that the type of objects stored in\nthem is constrained. The type is specified at object creation time by using a type code , which is a single character. The following type codes are\ndefined:",
+    "paragraph_start": 46,
+    "paragraph_end": 448,
+    "chunk": {
+      "chunk_id": "e65c6f2b958239c47b376da8f105914bef2dee8794780d67211013bef4c3d1e7",
+      "document_id": "py313-array",
+      "source": "https://docs.python.org/3.13/library/array.html",
+      "page": "array",
+      "text": "# array — Efficient arrays of numeric values\n\nThis module defines an object type which can compactly represent an array of\nbasic values: characters, integers, floating-point numbers. Arrays are mutable sequence types and behave very much like lists, except that the type of objects stored in\nthem is constrained. The type is specified at object creation time by using a type code , which is a single character. The following type codes are\ndefined:\n\nType code\n\nC Type\n\nPython Type\n\nMinimum size in bytes\n\nNotes\n\n'b'\n\nsigned char\n\nint\n\n1\n\n'B'\n\nunsigned char\n\nint\n\n1\n\n'u'\n\nwchar_t\n\nUnicode character\n\n2\n\n(1)\n\n'w'\n\nPy_UCS4\n\nUnicode character\n\n4\n\n(2)\n\n'h'\n\nsigned short\n\nint\n\n2\n\n'H'\n\nunsigned short\n\nint\n\n2\n\n'i'\n\nsigned int\n\nint\n\n2\n\n'I'\n\nunsigned int\n\nint\n\n2\n\n'l'\n\nsigned long\n\nint\n\n4\n\n'L'\n\nunsigned long\n\nint\n\n4\n\n'q'\n\nsigned long long\n\nint\n\n8\n\n'Q'\n\nunsigned long long\n\nint\n\n8\n\n'f'\n\nfloat\n\nfloat\n\n4\n\n'd'\n\ndouble\n\nfloat\n\n8\n\nNotes:\n\nIt can be 16 bits or 32 bits depending on the platform.",
+      "metadata": {
+        "category": "Data Types",
+        "version": "3.13.18",
+        "language": "en",
+        "module": "array",
+        "document_type": "technical_reference",
+        "char_start": 0,
+        "char_end": 982
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": ""
+  },
+  {
+    "strategy": "C",
+    "document_id": "py313-bisect",
+    "page": "bisect",
+    "anchor": 193,
+    "source_paragraph": "This module provides support for maintaining a list in sorted order without\nhaving to sort the list after each insertion. For long lists of items with\nexpensive comparison operations, this can be an improvement over\nlinear searches or frequent resorting.",
+    "paragraph_start": 66,
+    "paragraph_end": 320,
+    "chunk": {
+      "chunk_id": "cdde81c371dc111aa0fdb2905b3b9f5c78002eaa2c2594a66eb20771fee8d742",
+      "document_id": "py313-bisect",
+      "source": "https://docs.python.org/3.13/library/bisect.html",
+      "page": "bisect",
+      "text": "# bisect — Array bisection algorithm\n\nSource code: Lib/bisect.py\n\nThis module provides support for maintaining a list in sorted order without\nhaving to sort the list after each insertion. For long lists of items with\nexpensive comparison operations, this can be an improvement over\nlinear searches or frequent resorting.\n\nThe module is called bisect because it uses a basic bisection\nalgorithm to do its work. Unlike other bisection tools that search for a\nspecific value, the functions in this module are designed to locate an\ninsertion point. Accordingly, the functions never call an __eq__() method to determine whether a value has been found. Instead, the\nfunctions only call the __lt__() method and will return an insertion\npoint between values in an array.\n\nNote",
+      "metadata": {
+        "category": "Data Types",
+        "version": "3.13.18",
+        "language": "en",
+        "module": "bisect",
+        "document_type": "technical_reference",
+        "char_start": 0,
+        "char_end": 768
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": ""
+  },
+  {
+    "strategy": "C",
+    "document_id": "py313-codecs",
+    "page": "codecs",
+    "anchor": 353,
+    "source_paragraph": "This module defines base classes for standard Python codecs (encoders and\ndecoders) and provides access to the internal Python codec registry, which\nmanages the codec and error handling lookup process. Most standard codecs\nare text encodings , which encode text to bytes (and\ndecode bytes to text), but there are also codecs provided that encode text to\ntext, and bytes to bytes. Custom codecs may encode and decode between arbitrary\ntypes, but some module features are restricted to be used specifically with text encodings or with codecs that encode to bytes .",
+    "paragraph_start": 72,
+    "paragraph_end": 634,
+    "chunk": {
+      "chunk_id": "db5673893a82256d8f7256fae058fd223d8f58abc773c97e00d72fba8199598c",
+      "document_id": "py313-codecs",
+      "source": "https://docs.python.org/3.13/library/codecs.html",
+      "page": "codecs",
+      "text": "# codecs — Codec registry and base classes\n\nSource code: Lib/codecs.py\n\nThis module defines base classes for standard Python codecs (encoders and\ndecoders) and provides access to the internal Python codec registry, which\nmanages the codec and error handling lookup process. Most standard codecs\nare text encodings , which encode text to bytes (and\ndecode bytes to text), but there are also codecs provided that encode text to\ntext, and bytes to bytes. Custom codecs may encode and decode between arbitrary\ntypes, but some module features are restricted to be used specifically with text encodings or with codecs that encode to bytes .\n\nThe module defines the following functions for encoding and decoding with\nany codec:\n\ncodecs. encode ( obj , encoding = 'utf-8' , errors = 'strict' )\n\nEncodes obj using the codec registered for encoding .",
+      "metadata": {
+        "category": "Binary Data Services",
+        "version": "3.13.18",
+        "language": "en",
+        "module": "codecs",
+        "document_type": "technical_reference",
+        "char_start": 0,
+        "char_end": 840
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": ""
+  },
+  {
+    "strategy": "C",
+    "document_id": "py313-collections",
+    "page": "collections",
+    "anchor": 158,
+    "source_paragraph": "This module implements specialized container datatypes providing alternatives to\nPython’s general purpose built-in containers, dict , list , set , and tuple .",
+    "paragraph_start": 79,
+    "paragraph_end": 237,
+    "chunk": {
+      "chunk_id": "16322302be919f27776cebaebc82883b0b6a199206e6c1ec4ed05aa7c036d713",
+      "document_id": "py313-collections",
+      "source": "https://docs.python.org/3.13/library/collections.html",
+      "page": "collections",
+      "text": "# collections — Container datatypes\n\nSource code: Lib/collections/__init__.py\n\nThis module implements specialized container datatypes providing alternatives to\nPython’s general purpose built-in containers, dict , list , set , and tuple .\n\nnamedtuple()\n\nfactory function for creating tuple subclasses with named fields\n\ndeque\n\nlist-like container with fast appends and pops on either end\n\nChainMap\n\ndict-like class for creating a single view of multiple mappings\n\nCounter\n\ndict subclass for counting hashable objects\n\nOrderedDict\n\ndict subclass that remembers the order entries were added\n\ndefaultdict\n\ndict subclass that calls a factory function to supply missing values\n\nUserDict\n\nwrapper around dictionary objects for easier dict subclassing\n\nUserList\n\nwrapper around list objects for easier list subclassing\n\nUserString\n\nwrapper around string objects for easier string subclassing",
+      "metadata": {
+        "category": "Data Types",
+        "version": "3.13.18",
+        "language": "en",
+        "module": "collections",
+        "document_type": "technical_reference",
+        "char_start": 0,
+        "char_end": 883
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": ""
+  },
+  {
+    "strategy": "C",
+    "document_id": "py313-collections.abc",
+    "page": "collections.abc",
+    "anchor": 267,
+    "source_paragraph": "This module provides abstract base classes that\ncan be used to test whether a class provides a particular interface; for\nexample, whether it is hashable or whether it is a mapping .",
+    "paragraph_start": 177,
+    "paragraph_end": 358,
+    "chunk": {
+      "chunk_id": "48d3521bc51d9560bf55cd0551981dcbff1f11282f71dc45cd6e7147b998feaa",
+      "document_id": "py313-collections.abc",
+      "source": "https://docs.python.org/3.13/library/collections.abc.html",
+      "page": "collections.abc",
+      "text": "# collections.abc — Abstract Base Classes for Containers\n\nAdded in version 3.3: Formerly, this module was part of the collections module.\n\nSource code: Lib/_collections_abc.py\n\nThis module provides abstract base classes that\ncan be used to test whether a class provides a particular interface; for\nexample, whether it is hashable or whether it is a mapping .\n\nAn issubclass() or isinstance() test for an interface works in one\nof three ways.\n\nA newly written class can inherit directly from one of the\nabstract base classes. The class must supply the required abstract\nmethods. The remaining mixin methods come from inheritance and can be\noverridden if desired. Other methods may be added as needed:\n\nclass C ( Sequence ): # Direct inheritance def __init__ ( self ): ... # Extra method not required by the ABC def __getitem__ ( self , index ): ... # Required abstract method def __len__ ( self ): ... # Required abstract method def count ( self , value ): ... # Optionally override a mixin method",
+      "metadata": {
+        "category": "Data Types",
+        "version": "3.13.18",
+        "language": "en",
+        "module": "collections.abc",
+        "document_type": "technical_reference",
+        "char_start": 0,
+        "char_end": 996
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": ""
+  },
+  {
+    "strategy": "C",
+    "document_id": "py313-configparser",
+    "page": "configparser",
+    "anchor": 208,
+    "source_paragraph": "This module provides the ConfigParser class which implements a basic\nconfiguration language which provides a structure similar to what’s found in\nMicrosoft Windows INI files. You can use this to write Python programs which\ncan be customized by end users easily.",
+    "paragraph_start": 78,
+    "paragraph_end": 339,
+    "chunk": {
+      "chunk_id": "5344c55f0a6ea8772e6a924937f3c970e6e44dbf60192976f05c9819708a4b41",
+      "document_id": "py313-configparser",
+      "source": "https://docs.python.org/3.13/library/configparser.html",
+      "page": "configparser",
+      "text": "# configparser — Configuration file parser\n\nSource code: Lib/configparser.py\n\nThis module provides the ConfigParser class which implements a basic\nconfiguration language which provides a structure similar to what’s found in\nMicrosoft Windows INI files. You can use this to write Python programs which\ncan be customized by end users easily.\n\nNote\n\nThis library does not interpret or write the value-type prefixes used in\nthe Windows Registry extended version of INI syntax.\n\nSee also\n\nModule tomllib\n\nTOML is a well-specified format for application configuration files.\nIt is specifically designed to be an improved version of INI.\n\nModule shlex\n\nSupport for creating Unix shell-like mini-languages which can also\nbe used for application configuration files.\n\nModule json\n\nThe json module implements a subset of JavaScript syntax which is\nsometimes used for configuration, but does not support comments.",
+      "metadata": {
+        "category": "File Formats",
+        "version": "3.13.18",
+        "language": "en",
+        "module": "configparser",
+        "document_type": "technical_reference",
+        "char_start": 0,
+        "char_end": 902
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": ""
+  },
+  {
+    "strategy": "C",
+    "document_id": "py313-copy",
+    "page": "copy",
+    "anchor": 232,
+    "source_paragraph": "Assignment statements in Python do not copy objects, they create bindings\nbetween a target and an object. For collections that are mutable or contain\nmutable items, a copy is sometimes needed so one can change one copy without\nchanging the other. This module provides generic shallow and deep copy\noperations (explained below).",
+    "paragraph_start": 69,
+    "paragraph_end": 396,
+    "chunk": {
+      "chunk_id": "5a6f3f9e2939f3986d6b25f1e4e0c3aa9f23ec4eee0b3c8b81f755d47fd2858c",
+      "document_id": "py313-copy",
+      "source": "https://docs.python.org/3.13/library/copy.html",
+      "page": "copy",
+      "text": "# copy — Shallow and deep copy operations\n\nSource code: Lib/copy.py\n\nAssignment statements in Python do not copy objects, they create bindings\nbetween a target and an object. For collections that are mutable or contain\nmutable items, a copy is sometimes needed so one can change one copy without\nchanging the other. This module provides generic shallow and deep copy\noperations (explained below).\n\nInterface summary:\n\ncopy. copy ( obj )\n\nReturn a shallow copy of obj .\n\ncopy. deepcopy ( obj [ , memo ] )\n\nReturn a deep copy of obj .\n\ncopy. replace ( obj , / , ** changes )\n\nCreates a new object of the same type as obj , replacing fields with values\nfrom changes .\n\nAdded in version 3.13.\n\nexception copy. Error\n\nRaised for module specific errors.\n\nThe difference between shallow and deep copying is only relevant for compound\nobjects (objects that contain other objects, like lists or class instances):",
+      "metadata": {
+        "category": "Data Types",
+        "version": "3.13.18",
+        "language": "en",
+        "module": "copy",
+        "document_type": "technical_reference",
+        "char_start": 0,
+        "char_end": 903
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": ""
+  },
+  {
+    "strategy": "C",
+    "document_id": "py313-csv",
+    "page": "csv",
+    "anchor": 420,
+    "source_paragraph": "The so-called CSV (Comma Separated Values) format is the most common import and\nexport format for spreadsheets and databases. CSV format was used for many\nyears prior to attempts to describe the format in a standardized way in RFC 4180 . The lack of a well-defined standard means that subtle differences\noften exist in the data produced and consumed by different applications. These\ndifferences can make it annoying to process CSV files from multiple sources.\nStill, while the delimiters and quoting characters vary, the overall format is\nsimilar enough that it is possible to write a single module which can\nefficiently manipulate such data, hiding the details of reading and writing the\ndata from the programmer.",
+    "paragraph_start": 63,
+    "paragraph_end": 777,
+    "chunk": {
+      "chunk_id": "3f4a6efa0dcad9c278feca6cc96288a0562646ebb2d586d7b46e09a124993601",
+      "document_id": "py313-csv",
+      "source": "https://docs.python.org/3.13/library/csv.html",
+      "page": "csv",
+      "text": "# csv — CSV File Reading and Writing\n\nSource code: Lib/csv.py\n\nThe so-called CSV (Comma Separated Values) format is the most common import and\nexport format for spreadsheets and databases. CSV format was used for many\nyears prior to attempts to describe the format in a standardized way in RFC 4180 . The lack of a well-defined standard means that subtle differences\noften exist in the data produced and consumed by different applications. These\ndifferences can make it annoying to process CSV files from multiple sources.\nStill, while the delimiters and quoting characters vary, the overall format is\nsimilar enough that it is possible to write a single module which can\nefficiently manipulate such data, hiding the details of reading and writing the\ndata from the programmer.",
+      "metadata": {
+        "category": "File Formats",
+        "version": "3.13.18",
+        "language": "en",
+        "module": "csv",
+        "document_type": "technical_reference",
+        "char_start": 0,
+        "char_end": 777
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": ""
+  },
+  {
+    "strategy": "C",
+    "document_id": "py313-datetime",
+    "page": "datetime",
+    "anchor": 218,
+    "source_paragraph": "While date and time arithmetic is supported, the focus of the implementation is\non efficient attribute extraction for output formatting and manipulation.",
+    "paragraph_start": 142,
+    "paragraph_end": 295,
+    "chunk": {
+      "chunk_id": "a69e4c365ad79552680d393f1d1396d40b5f2a8aca16cc7bdb51ecaa3f42214d",
+      "document_id": "py313-datetime",
+      "source": "https://docs.python.org/3.13/library/datetime.html",
+      "page": "datetime",
+      "text": "# datetime — Basic date and time types\n\nSource code: Lib/datetime.py\n\nThe datetime module supplies classes for manipulating dates and times.\n\nWhile date and time arithmetic is supported, the focus of the implementation is\non efficient attribute extraction for output formatting and manipulation.\n\nTip\n\nSkip to the format codes .\n\nSee also\n\nModule calendar\n\nGeneral calendar related functions.\n\nModule time\n\nTime access and conversions.\n\nModule zoneinfo\n\nConcrete time zones representing the IANA time zone database.\n\nPackage dateutil\n\nThird-party library with expanded time zone and parsing support.\n\nPackage DateType\n\nThird-party library that introduces distinct static types to e.g. allow static type checkers to differentiate between naive and aware datetimes.",
+      "metadata": {
+        "category": "Data Types",
+        "version": "3.13.18",
+        "language": "en",
+        "module": "datetime",
+        "document_type": "technical_reference",
+        "char_start": 0,
+        "char_end": 763
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": ""
+  },
+  {
+    "strategy": "C",
+    "document_id": "py313-decimal",
+    "page": "decimal",
+    "anchor": 167,
+    "source_paragraph": "The decimal module provides support for fast correctly rounded\ndecimal floating-point arithmetic. It offers several advantages over the float datatype:",
+    "paragraph_start": 92,
+    "paragraph_end": 243,
+    "chunk": {
+      "chunk_id": "66c005cd3c2ffbe9f9af8766d621b3af43523392c9a4791f97fb83e708ec14b6",
+      "document_id": "py313-decimal",
+      "source": "https://docs.python.org/3.13/library/decimal.html",
+      "page": "decimal",
+      "text": "# decimal — Decimal fixed-point and floating-point arithmetic\n\nSource code: Lib/decimal.py\n\nThe decimal module provides support for fast correctly rounded\ndecimal floating-point arithmetic. It offers several advantages over the float datatype:\n\nDecimal “is based on a floating-point model which was designed\nwith people in mind, and necessarily has a paramount guiding principle –\ncomputers must provide an arithmetic that works in the same way as the\narithmetic that people learn at school.” – excerpt from the decimal\narithmetic specification.\n\nDecimal numbers can be represented exactly. In contrast, numbers like 1.1 and 2.2 do not have exact representations in binary\nfloating point. End users typically would not expect 1.1 + 2.2 to display\nas 3.3000000000000003 as it does with binary floating point.",
+      "metadata": {
+        "category": "Numeric and Mathematical Modules",
+        "version": "3.13.18",
+        "language": "en",
+        "module": "decimal",
+        "document_type": "technical_reference",
+        "char_start": 0,
+        "char_end": 807
+      }
+    },
+    "score": null,
+    "reason": "",
+    "reviewer": ""
+  }
+]
